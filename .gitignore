@@ -1,8 +1,5 @@
 # Exclude workspace cache
-.obsidian/workspace/*
-
-# Exclude plugins
-.obsidian/plugins/*
+.obsidian/
 
 # This file is used to keep track of last auto backup/pull
 .obsidian-git-data
