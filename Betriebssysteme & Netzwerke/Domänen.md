@@ -1,5 +1,7 @@
 Domänen sind definierte Administrationsbereiche in gewerblichen Netzwerken, welche redundant betrieben werden.
 
+![](../_Medien/Domäne.png)
+
 # Tree
 auch *Kerberos Two Way Transitive Trust*
 

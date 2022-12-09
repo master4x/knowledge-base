@@ -2,3 +2,5 @@ Partitionen sind logisch getrennte Datenblöcke auf einem Speichermedium. Jede P
 
 # EFI-Partition
 Die EFI-Partition ist eine Systempartition, welche nicht vom Nutzer beschreibbar ist. Die Aufgabe dieser Partition ist die *Bereitstellung von Treibern der Peripheriegeräte für das UEFI* (BIOS mit UI).
+
+![](../_Medien/EFI_Partition.png)

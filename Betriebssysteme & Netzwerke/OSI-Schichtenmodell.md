@@ -2,6 +2,8 @@ Das OSI-Modell ist ein Versuch der Abbildung von Netzwerkkommunikation. Alle Net
 
 > „Alle deutschen Schüler trinken verschiedene Sorten Bier.“
 
+![](../_Medien/OSI_Schichtenmodell.png)
+
 1. Festlegung der Übertragung einzelner Bits 
    ➔Kabel, Stecker 
 2. Fehlererkennung und Korrektur 
@@ -16,3 +18,6 @@ Das OSI-Modell ist ein Versuch der Abbildung von Netzwerkkommunikation. Alle Net
    ➔ASCII, AES 
 7. Schnittstelle zum Anwender 
    ➔Viele Protokolle (HTTP, FTP, …)
+
+# TCP/IP Referenzmodell
+![](../_Medien/TCP_IP_Referenzmodell.png)
