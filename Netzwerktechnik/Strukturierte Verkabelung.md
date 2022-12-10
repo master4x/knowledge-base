@@ -1,4 +1,4 @@
-Die strukturierte Gebäudeverkabelung ist in der (DIN) EN 50173 geregelt. Die Norm unterteilt Gebäudekomplexe in drei Bereiche, in welchen verschiedene Netzwerkkomponenten und Übertragungsmedien eingesetzt werden.
+Die strukturierte Gebäudeverkabelung ist in der `DIN EN 50173` geregelt. Die Norm unterteilt Gebäudekomplexe in drei Bereiche, in welchen verschiedene Netzwerkkomponenten und Übertragungsmedien eingesetzt werden.
 
 ![](../_Medien/EN_50173.png)
 
