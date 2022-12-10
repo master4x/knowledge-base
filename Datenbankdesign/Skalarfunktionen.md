@@ -5,6 +5,6 @@ Mithilfe von Skalarfunktionen können Sie einen Wert von einem *Datentyp* in ein
 - `DATEDIFF()`
 - `DATENAME()`
 
-```
+``` sql
 SELECT DATEDIFF(year, Einstellung, Entlassung) FROM Mitarbeiter;
 ```

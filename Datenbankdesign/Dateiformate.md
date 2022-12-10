@@ -15,7 +15,7 @@ Audi;Q3;110
 # XML
 Das XML-Format (engl. „Extensible Markup Language“) ist ein alternatives Dateiformat zu CSV. Dieses Format bildet eine *hierarchisch aufgebaute Datenstruktur* (erweiterbar), welche in einem lesbaren Textformat verfasst ist. Das XML-Format ist besonders in der Informatik verbreitet. Es bildet Datenstrukturen korrekt ab und lässt sich *performant einlesen*. Nachteil ist der erhöhte Aufwand beim Einlesen der Daten in fremder Software. Mit „XPath“ können Knoten adressiert werden.
 
-```
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <autohaus>
    <auto>
@@ -47,7 +47,7 @@ Der Begriff Wohlgeformtheit, der Ihnen im Zusammenhang mit XML immer wieder bege
 ## Gültigkeit
 Was noch fehlt, ist der *Bezug zu einer DTD* (engl. „Document Type Definition“), in der die verwendeten *Elemente definiert* sind. Deshalb kann man über das Beispiel sagen, *es ist wohlgeformt, aber nicht gültig*. Gültigkeit erreicht das Dokument, wenn das Objektmodell der XML-Datei erfolgreich gegen ein DTD validiert worden ist. Ein DTD *legt Elemente, Attribute und Entitäten fest*, welche dem Dokument seine Struktur vorgeben und die Verarbeitung erleichtern. Die Dokumenttyp-*Deklaration muss am Anfang des Dokuments* (nur durch den XML-Header vorangestellt) angezeigt. Es ist nicht erlaubt irgendwo anders innerhalb im Dokument.
 
-```
+``` xml
 <!DOCTYPE address [
    <!ELEMENT address (name,company,phone)>
    <!ELEMENT name (#PCDATA)>

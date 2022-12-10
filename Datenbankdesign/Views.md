@@ -7,7 +7,7 @@ Eine View kann z. B. für folgende Zwecke verwendet werden:
 - Als *Sicherheitsmechanismus*, indem Benutzern der Zugriff auf Daten über die Sicht ermöglicht wird, ohne diesen Benutzern jedoch die Berechtigungen für den direkten Zugriff auf die zugrunde liegenden Basistabellen zu gewähren.
 - Um eine abwärtskompatible Schnittstelle zum Emulieren einer Tabelle bereitzustellen, deren Schema geändert wurde.
 
-```
+``` sql
 CREATE OR REPLACE VIEW Mitarbeiter_Webdesign AS
          SELECT * FROM Mitarbeiter WHERE Abteilungs_ID = 100 WITH CHECK OPTION;
 ```

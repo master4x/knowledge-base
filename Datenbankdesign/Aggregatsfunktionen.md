@@ -7,6 +7,6 @@ Die fünf wichtigsten SQL-Aggregatfunktionen sind:
 - `MAX()`
 - `AVG()`
 
-```
+``` sql
 SELECT COUNT(*) FROM Mitarbeiter;
 ```
