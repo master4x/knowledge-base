@@ -1,0 +1,1 @@
+![](../_Medien/Wasserfallmodell.png)
