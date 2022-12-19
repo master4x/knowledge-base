@@ -4,8 +4,8 @@ Subnetting ist die Bildung von Teilnetzen (bzw. Subnetzen) innerhalb eines priva
 **Beispiel**: 3 Subnetzte in einem privaten Klasse-C-Netzwerk mit der Netz-ID `192.168.0.0/24`
 
 1. **Leihbits berechnen**
-   Die Anzahl der Leihbits lässt sich über die Formel `2ⁿ ≥ S` bestimmen.
-   `S` steht dabei für die Anzahl der Subnetze und `n` für die Anzahl der Leihbits.
+   Die Anzahl der Leihbits lässt sich über die Formel $2^n \geq S$ bestimmen.
+   `S` steht dabei für die Anzahl der Subnetze und $n$ für die Anzahl der Leihbits.
 ```
 2ⁿ ≥ S     ⇨     2² = 4 > 3     ⇨     2 Leihbits
 ```
@@ -18,9 +18,9 @@ Subnetz 2: 1111 1111.1111 1111.1111 1111.0100 0000 /26 ⇨ 255.255.255.224
 Subnetz 3: ...
 ```
 3. **Hostanzahl berechnen**
-   Die Größe der Subnetze lässt sich über die Formel `2ᵐ = G` bestimmen.
-   `G` steht dabei für die Anzahl Subnetzgröße und `m` für die Anzahl der verbleibenden Bits.
-   Um die Hostanzahl `H` zu bestimmen wird folgende Formel verwendet: `2ᵐ - 2 = H`.
+   Die Größe der Subnetze lässt sich über die Formel $2^m = G$ bestimmen.
+   `G` steht dabei für die Anzahl Subnetzgröße und $m$ für die Anzahl der verbleibenden Bits.
+   Um die Hostanzahl $H$ zu bestimmen wird folgende Formel verwendet: $2^m - 2 = H$.
 ```
 2ᵐ = G     ⇨     2⁶ – 2 = 64     ⇨     64 – 2 = 62 (Hosts)
 ```
@@ -35,7 +35,7 @@ Subnetz 3: ...
 **Bespiel**: 100 Clients im größten Subnetz eines B-Netzwerks mit der Netz-ID `172.16.0.0/16`
 
 1. Hostbits berechnen
-   Mit der Formel `2ᵐ - 2 = H` lassen sich die übrigen Bits berechnen, z.B. durch ausprobieren.
+   Mit der Formel $2^m - 2 = H$ lassen sich die übrigen Bits berechnen, z.B. durch ausprobieren.
 ```
 2ᵐ – 2 = H     ⇨     2⁷ – 2 = 126     ⇨     7 Hostbits
 ```
