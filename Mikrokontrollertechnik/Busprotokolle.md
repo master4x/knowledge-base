@@ -15,7 +15,7 @@ Teilnehmer des I²C-Bus können die `SDA`-Leitung gegen `LOW` ziehen oder sich p
 ## Read/Write-Funktion
 ![](../_Medien/Read_Write_Funktion.png)
 
-```
+``` c
 #include i2c_api.h 
 
 void writeData(unsigned char address, unsigned char data) 
