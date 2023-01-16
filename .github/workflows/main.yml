@@ -4,7 +4,6 @@ name: Build and push obisidan-zola to pasges branch
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
     steps:
       - name: checkout
         uses: actions/checkout@v2
