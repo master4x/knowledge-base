@@ -1,9 +1,68 @@
 [build]
-command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone -b dev https://github.com/rwtechwiki/obsidian-zola.git __site && __site/run.sh"
 publish = "public"
 
 [build.environment]
-LANDING_PAGE = "README"
+# (Optional) Text in landing page button
+LANDING_BUTTON = "Los geht's!"
+# (Optional) Site description on landing page
+LANDING_DESCRIPTION = "Dieses Repository ist ein Wissens-Repo und bildet sämtlichen prüfungsrelevanten Lehrstoff für die schriftliche Abiturprüfung im Fach Technische Informatik ab. Ich habe die Prüfung selbst im Jahr 2022 erfolgreich abgelegt und wünsche allen zukünftigen Absolventen Viel Erfolg!"
+# (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
+LANDING_PAGE = "collections/movedocrecs"
+# (Optional) Site title on landing page
+LANDING_TITLE = "Willkommen!"
 PYTHON_VERSION = "3.8"
+# (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/master4x/knowledge-base"
+# (Optional) Site title in navbar
+SITE_TITLE = "Knowladge Base"
+# (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
+SITE_TITLE_TAB = "Knowledge Base | Master4x"
+# (REQUIRED) Netlify site URL
 SITE_URL = "https://master4x.github.io/knowledge-base"
+# (Optional) Site Timezone
+TIMEZONE = ""
+ZOLA_VERSION = "0.15.2"
+# (Optional, default title) How to sort notes inside each section on the right sidebar ("date" or "title"). Subsections on side bar are sorted by title, the sort order cannot be changed.
+SORT_BY = "title"
+# (Optional) Google Analytics Measurement ID
+GANALYTICS = ""
+# (Optional, default true) Slugify URLs. Put "" to disable.
+SLUGIFY = "y"
+# (Optional, default true) Shows knowledge graph on home page. Put "" to disable.
+HOME_GRAPH = "n"
+# (Optional, default true) Shows knowledge graph on every page. Put "" to disable.
+PAGE_GRAPH = "n"
+# (Optional, default false) Whether sidebar sections should be collapsed by default.
+SIDEBAR_COLLAPSED = "n"
+# (Optional, default blank) Additional footer content.
+FOOTER = ""
+# (Optional, default main) Root section name.
+ROOT_SECTION_NAME = "main"
+# (Optional, default "y") Require whitespace for recognised linebreaks.
+STRICT_LINE_BREAKS = ""
+# (Optional, default "") Only display local connections to page in footer graph.
+LOCAL_GRAPH = "n"
+# (Optional) visjs graph options. Can remove if desired.
+
+
+[[plugins]]
+package = "netlify-plugin-submit-sitemap"
+
+[plugins.inputs]
+
+# The base url of your site (optional, default = main URL set in Netlify)
+baseUrl = "https://master4x.github.io/knowledge-base"
+
+# Path to the sitemap URL (optional, default = /sitemap.xml)
+sitemapPath = "/sitemap.xml"
+
+# Time in seconds to not submit the sitemap after successful submission
+ignorePeriod = 0
+
+# Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
+providers = [
+  "google",
+  "bing",
+  "yandex",
+]
