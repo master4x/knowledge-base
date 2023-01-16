@@ -1,0 +1,9 @@
+[build]
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+publish = "public"
+
+[build.environment]
+LANDING_PAGE = "README"
+PYTHON_VERSION = "3.8"
+REPO_URL = "https://github.com/master4x/knowledge-base"
+SITE_URL = "https://master4x.github.io/knowledge-base"
