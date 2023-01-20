@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: build_and_deploy
         # In the spot where it says v0.1.3.2-testing, update that to the latest release tag on a new release to continue getting new updates
         uses: trwbox/obsidian-zola-build-action@v0.1.3.2-testing
