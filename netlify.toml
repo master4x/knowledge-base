@@ -6,20 +6,20 @@ publish = "public"
 # (Optional) Text in landing page button
 LANDING_BUTTON = "Los geht's!"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = "Dieses Repository ist ein Wissens-Repo und bildet sämtlichen prüfungsrelevanten Lehrstoff für die schriftliche Abiturprüfung im Fach Technische Informatik ab. Ich habe die Prüfung selbst im Jahr 2022 erfolgreich abgelegt und wünsche allen zukünftigen Absolventen Viel Erfolg!"
+LANDING_DESCRIPTION = ""
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "collections/movedocrecs"
 # (Optional) Site title on landing page
 LANDING_TITLE = "Willkommen!"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
-REPO_URL = "https://github.com/master4x/knowledge-base"
+REPO_URL = "https://github.com/master4x/knowledge-base/"
 # (Optional) Site title in navbar
 SITE_TITLE = "Knowladge Base"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
 SITE_TITLE_TAB = "Knowledge Base | Master4x"
 # (REQUIRED) Netlify site URL
-SITE_URL = "https://master4x.github.io/knowledge-base"
+SITE_URL = "https://master4x.github.io/knowledge-base/"
 # (Optional) Site Timezone
 TIMEZONE = ""
 ZOLA_VERSION = "0.15.2"
@@ -52,7 +52,7 @@ package = "netlify-plugin-submit-sitemap"
 [plugins.inputs]
 
 # The base url of your site (optional, default = main URL set in Netlify)
-baseUrl = "https://master4x.github.io/knowledge-base"
+baseUrl = "https://master4x.github.io/knowledge-base/"
 
 # Path to the sitemap URL (optional, default = /sitemap.xml)
 sitemapPath = "/sitemap.xml"
