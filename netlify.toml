@@ -8,7 +8,7 @@ LANDING_BUTTON = "Los geht's!"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = ""
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "collections/movedocrecs"
+LANDING_PAGE = "readme"
 # (Optional) Site title on landing page
 LANDING_TITLE = "Willkommen!"
 PYTHON_VERSION = "3.8"
