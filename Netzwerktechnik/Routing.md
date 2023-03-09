@@ -1,12 +1,13 @@
+# Routing
 Ein Router hat immer nur Informationen über unmittelbar verbundene Netzwerke. Um ein Datenpacket in ein unbekanntes Netzwerk zu transportieren, muss der Router entscheiden, über welche Schnittstelle das Packet geleiten werden muss, damit es zum Ziel gelangt.
 
-# Statisches Routing
+## Statisches Routing
 Beim statischen Routing werden die Routen manuell in Weiterleitungstabellen eingetragen. Dem Router liegen nur diese *Routen* als Datengrundlage vor.
 
-# Dynamisches Routing
+## Dynamisches Routing
 Beim dynamischen Routing verwaltet der Router die Weiterleitungstabelle und trägt im laufenden Betrieb neu ermittelte Routen automatisch ein.
 
-# Weiterleitungstabelle
+## Weiterleitungstabelle
 | Ziel        | Netzmaske       | Nächstes Gateway | Über Schnittstelle |
 |-------------|-----------------|------------------|--------------------|
 | 192.168.3.1 | 255.255.255.255 | 127.0.0.1        | 127.0.0.1          |

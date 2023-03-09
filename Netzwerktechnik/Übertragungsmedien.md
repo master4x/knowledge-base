@@ -1,4 +1,5 @@
-# Kupferkabel
+# Übertragungsmedien
+## Kupferkabel
 **Faustregel**: Netzwerkkabel nicht länger als 100m am Stück verlegen.
 
 | Kategorie | Geschwindigkeit | Frequenz | Stecker | Norm         |

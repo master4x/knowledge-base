@@ -1,3 +1,4 @@
+# Datentypen
 | Datentyp (SQL) | Beispielwert          | Beschreibung                 |
 | -------------- | --------------------- | ---------------------------- |
 | INT            | 12345678              | Ganzzahlen                   |

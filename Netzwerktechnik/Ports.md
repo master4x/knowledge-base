@@ -1,3 +1,4 @@
+# Ports
 Ports (TCP/UDP) sind primär die *Schnittstelle zwischen Anwendungen* in Netzwerken,  
 wobei diese die Unterscheidung mehrere Verbindungen zwischen demselben Paar an Endpunkten ermöglichen. Eine IP-Adresse wird für die Kommunikation um einen spezifizierten Port ergänzt.
 

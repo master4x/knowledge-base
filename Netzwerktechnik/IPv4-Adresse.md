@@ -1,1 +1,0 @@
-Eine IPv4-Adresse ist eine 32 Bit lange Binärzahl, welche im sog. Dotted-Decimal-Format mit Punkten als Trennzeichen angegeben wird. Jedes Bytes wird als Dezimalzahl im Wertebereich von 0-255 angegeben und durch Punkt getrennt. Als *Selbstreferenz* bezeichnet man die IP `127.0.0.1`.
