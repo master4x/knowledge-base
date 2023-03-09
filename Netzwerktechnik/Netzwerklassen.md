@@ -1,3 +1,4 @@
+# Netzwerklassen
 | Klasse | Adressbereich               | Subnetzmaske  |
 | ------ | --------------------------- | ------------- |
 | A      | 1.0.0.0 – 126.255.255.255   | 255.0.0.0     |
@@ -6,7 +7,7 @@
 | D      | 224.0.0.0 – 239.255.255.255 | (Multicast)   |
 | E      | 240.0.0.0 – 255.255.255.255 | (Reserviert)  |
 
-# Private Netzwerke
+## Private Netzwerke
 | Klasse | Adressbereich                 | Subnetzmaske  |
 |--------|-------------------------------|---------------|
 | A      | 10.0.0.0 – 10.255.255.255     | 255.0.0.0     |

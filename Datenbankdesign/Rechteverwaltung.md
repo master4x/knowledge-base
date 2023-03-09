@@ -1,3 +1,4 @@
+# Rechteverwaltung
 Es wird in SQL zwischen zwei Klassen von Rechten unterscheiden: Objektrechte und Systemrechte. Die Organisation der Zugangsrechte findet über Benutzer und Rollen statt.
 
 | **Systemrechte**              | **Objektrechte** |

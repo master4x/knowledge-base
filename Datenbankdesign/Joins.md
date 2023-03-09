@@ -1,3 +1,4 @@
+# Joins
 Joins führen *Daten zusammen, die in unterschiedlichen Tabellen* gespeichert sind, und geben diese in gefilterter Form in einer Ergebnistabelle aus. Welche Daten der Ausgangstabellen in die Ergebnis-Tabelle übernommen werden, bestimmt der Anwender durch die Wahl eines *Join-Typs* und durch die Definition einer Selektionsbedingung. Voraussetzung dafür ist, dass die ausgewählten Tabellen über *Fremdschlüsselbeziehungen* miteinander verknüpft sind. Die Selektionsbedingung kann alternativ mithilfe des Schlüsselwortes USING realisiert werden, Voraussetzung ist dieselbe Bezeichnung des Primär- und Fremdschlüssels in beiden referenzierten Tabellen.
 
 ``` sql

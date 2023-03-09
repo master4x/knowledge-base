@@ -1,4 +1,5 @@
-# Generalisierung (is-a)
+# Spezielle Beziehungstypen
+## Generalisierung (is-a)
 ![](../_Medien/Generalisierung_ERD.png)
 
 **Disjunktheit**
@@ -9,8 +10,8 @@
 - *total*: Es gibt keine weiteren Teilmengen (in der Spezialisierung).
 - *partiell*: Nicht alle Teilmengen sind aufgeführt.
 
-# Aggregation (part-of)
+## Aggregation (part-of)
 ![](../_Medien/Aggregation_ERD.png)
 
-# Rekursion
+## Rekursion
 ![](../_Medien/Rekursion_ERD.png)

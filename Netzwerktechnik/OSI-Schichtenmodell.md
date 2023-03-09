@@ -1,3 +1,4 @@
+# OSI-Schichtenmodell
 Das OSI-Modell ist ein Versuch der Abbildung von Netzwerkkommunikation. Alle Netzwerkakteure lassen sich in eine der 7 OSI-Schichten einordnen. Falls die Einordnung nicht klar ist, wird immer die höchstmögliche Schicht gewählt. Während einer Netzwerkkommunikation wird jede Schicht zwei Mal durchlaufen. Am Anfang bzw. Ende sitzt der Anwender (umgangssprachlich: „Layer: 8“).
 
 > „Alle deutschen Schüler trinken verschiedene Sorten Bier.“
@@ -19,5 +20,5 @@ Das OSI-Modell ist ein Versuch der Abbildung von Netzwerkkommunikation. Alle Net
 7. Schnittstelle zum Anwender 
    ➔Viele Protokolle (HTTP, FTP, …)
 
-# TCP/IP Referenzmodell
+## TCP/IP Referenzmodell
 ![](../_Medien/TCP_IP_Referenzmodell.png)
