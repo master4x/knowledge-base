@@ -23,5 +23,6 @@ erweiterten Hilfskombination `m:n` (*mindestens 1* zu *mindestens 1*), da die Pl
 Element interpretiert werden können.
 
 ![](../_Medien/ERD_Beispiel.png)
-**Leserichtung (links-rechts)**:     Ein Fahrzeug belegt eine oder keine Garage. 
-**Leserichtung (rechts-links)**:     Eine Garage wird von genau einem Fahrzeug belegt.
+Als standardisierte Leserichtung gilt von *links nach rechts* und von *oben nach unten*, die Beziehungen sind ensprechend zu beschreiben.
+**Leserichtung →**     Ein Fahrzeug belegt eine oder keine Garage. 
+**Leserichtung ←**     Eine Garage wird von genau einem Fahrzeug belegt.
