@@ -1,5 +1,5 @@
 # Topologien
-Topologien sind Darstellungen von physikalischen Netzwerkstrukturen. Diese bilden die Grundlage für den Weg des Datentransports auf Bitebene. Topologien lassen sich vermachen (außer Bus).
+Topologien sind Darstellungen von physikalischen Netzwerkstrukturen. Diese bilden die Grundlage für den Weg des Datentransports auf Bitebene. Alle gezeichten komplexen Topologien (außer Bus) lassen sich für höhere Verfügbarkeit vermaschen.
 
 ## Stern
 In der Stern-Topologie werden alle Clients mit einem dedizierten Kabel mit einem Sternverteiler (Switch) verbunden. Ein sternförmiges Netz hat einen deutlich höheren Verdatungsaufwand.
