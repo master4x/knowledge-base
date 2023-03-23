@@ -1,4 +1,4 @@
-# Pflichtenheft
+# ERD
 Ein „Entity-Relationship-Diagram“ (kurz ERD) bzw. „Entity-Relationship-Modell“ (kurz ERM) ist eine visuelle Darstellung verschiedener Entitäten innerhalb eines Systems mit ihrer Beziehung zueinander.
 
 ![](../_Medien/ERD.png)
