@@ -23,5 +23,5 @@ erweiterten Hilfskombination `m:n` (*mindestens 1* zu *mindestens 1*), da die Pl
 Element interpretiert werden können.
 
 ![](../_Medien/ERD_Beispiel.png)
-Als standardisierte Leserichtung gilt von *links nach rechts* und von *oben nach unten*, die Beziehungen sind ensprechend zu beschreiben.
+Als standardisierte Leserichtung gilt von *links nach rechts* und von *oben nach unten*.
 **Beipiel:** Ein Fahrzeug belegt eine oder keine Garage. 
