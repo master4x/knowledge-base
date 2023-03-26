@@ -1,4 +1,4 @@
-# Partitionen
+# Partitionierung
 Partitionen sind logisch getrennte Datenblöcke auf einem Speichermedium. Jede Partition ist in einem *Dateisystem* (z.B. NTFS oder FAT32) formatiert, damit diese beschreibbar ist.
 
 ## EFI-Partition
