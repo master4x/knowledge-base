@@ -12,5 +12,7 @@ Die Änderungsanomalie (engl. „Update“) ist das manuelle, *unvollständige �
 ## Löschanomalie
 Die Löschanomalie (engl. „Delete“) beschreibt das *unbeabsichtigte Löschen* von noch brauchbaren (oder noch zu gebrauchenden) Datensätzen.
 
-## Redundanz
-Eine Redundanz beschreibt das *mehrfache Vorhandensein identischer Daten*(-sätze). Redundanzen in Datenbanken sind ein Zeichen für ein *schlechtes Datenbankdesign*.
+## Sonstige
+
+### Redundanz
+Eine Redundanz beschreibt das *mehrfache Vorhandensein identischer Daten*(-sätze). Redundanzen in Datenbanken sind ein Zeichen für ein *schlechtes Datenbankdesign*, kann aber der performant Suchergebnisse liefern.

@@ -1,4 +1,5 @@
 # Spezielle Beziehungstypen
+
 ## Generalisierung (is-a)
 ![](../_Medien/Generalisierung_ERD.png)
 

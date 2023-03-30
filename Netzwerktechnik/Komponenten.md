@@ -1,5 +1,4 @@
 # Komponenten
-![](../_Medien/Netzwerkkomponenten_Abitur.png)
 
 ## Hub
 Ein Hub ist eine veraltete Netzwerkkomponente, er empfängt Signale und leitet sie an alle angeschlossenen Geräte weiter. Der Hub kennt keine MAC-Adressen und verursacht viele Kollisionen im Datenverkehr. Der Hub ist ein *rein elektrisches Bauteil*, welches über keinen Prozessor und Speicher verfügt – er ist „dumm“ und arbeitet auf der 1./2. OSI-Schicht.
@@ -15,3 +14,8 @@ Router sind die komplexesten Netzwerkkomponenten, sie verwalten den Datenverkehr
 
 ## Layer3-Switch
 Layer3-Switches (kurz L3-Switch) bzw. Managed Switches oder Routing Switch sind eine Weiterentwicklung des L2-Switches, welche koexistiert. Der herkömmliche Switch wird mit einer limitierten Routingfunktionalität auf die 3. OSI-Schicht gehoben. Im Unterscheid zum Router, verbindet ein L3-Switch nur Subnetze und unterstützt keine WAN-Protokolle. L3-Switches arbeiten durch effizientes Zwischenspeichern von Paketrouten besonders schnell - nach dem Prinzip „Route once, switch many“. Der Erwerb von L3-Switches ist im Vergleich zu L2-Switches deutlich teurer.
+
+# Netzwerksymbolik
+
+## Abitur
+![](../_Medien/Netzwerkkomponenten_Abitur.png)
