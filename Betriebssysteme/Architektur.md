@@ -1,10 +1,15 @@
 # Architektur
 Ein Betriebssystem ist ein Softwarepaket, welches alle *nötigen Softwareinhalte beinhaltet* um ein *Computersystem anwendungsorientiert* einsetzten zu können. Es hat folgende Aufgaben: *Prozessverwaltung, Synchronisation, Benutzerverwaltung, Daten-/Speicherverwaltung und Hardwareverwaltung* bzw. -steuerung.
 
+## Modelle
+
+### Von-Neumann-Architektur
 ![](../_Medien/Von_Neumann_Architektur.png)
 
+### Schichtenmodell
 ![](../_Medien/Schichtenmodell.png)
 
+### Schalenmodell
 ![](../_Medien/Schalenmodell.png)
 
 ## Benutzerverwaltung

@@ -30,6 +30,8 @@ void writeData(unsigned char address, unsigned char data)
 
 unsigned char readData(unsigned char address) 
 { 
+	unsigned char data;
+	
 	i2c_start(); 
 	i2c_write(0b00100110); 
 	i2c_write(address); 
@@ -37,7 +39,7 @@ unsigned char readData(unsigned char address)
 	
 	i2c_start(); 
 	i2c_write(0b00100111); 
-	unsigned char data = i2c_read(); 
+	data = i2c_read(); 
 	m_ack(); 
 	i2c_stop(); 
 	

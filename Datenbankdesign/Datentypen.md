@@ -1,5 +1,5 @@
-# Datentypen
-| Datentyp (SQL) | Beispielwert          | Beschreibung                 |
+# SQL-Datentypen
+| Datentyp       | Beispielwert          | Beschreibung                 |
 | -------------- | --------------------- | ---------------------------- |
 | INT            | 12345678              | Ganzzahlen                   |
 | DOUBLE         | 1234.567              | Fließkommazahl               |
