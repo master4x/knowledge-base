@@ -1,5 +1,5 @@
 # Programcode
-Die Programmiersprache von Arduino kann in drei Hauptteile unterteilt werden: *Struktur*, *Werte* (Variablen und Konstanten) und *Funktionsbasis*. Die Struktur bilden Elemente der Arduino (C++) Programmiersprache mit den *Sketchfunktionen* `setup()` und `loop()` sowie (bitweise) *Operatoren* und *Syntax*. Für Variablen können bekannte Datentypen der C-Ableger verwendet werden. Im Bereich Funktionenbasis können vordefinierte Funktionen, ähnlich zu komplexeren Sprachen wie Java, eingesetzt werden um *Berechnungen effizienter durchzuführen*.
+Die Programmiersprache von Arduino kann in drei Hauptteile unterteilt werden: *Struktur*, *Werte* (Variablen und Konstanten) und *Funktionsbasis*. Die Struktur bilden Elemente der [[Arduino]] (C++) Programmiersprache mit den *Sketchfunktionen* `setup()` und `loop()` sowie (bitweise) *Operatoren* und *Syntax*. Für Variablen können bekannte Datentypen der C-Ableger verwendet werden. Im Bereich Funktionenbasis können vordefinierte Funktionen, ähnlich zu komplexeren Sprachen wie Java, eingesetzt werden um *Berechnungen effizienter durchzuführen*.
 
 ## Beispiele
 

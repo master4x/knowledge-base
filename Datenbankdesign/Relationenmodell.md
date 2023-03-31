@@ -1,5 +1,5 @@
 # Relationenmodell
-Wir verwenden eine relationale Datenbank und überführen das ER-Modell daher in ein relationales Datenmodell. Für die spätere Datenbank muss das konzeptionelle Datenmodell stattdessen in ein hierzu passendes logisches Datenmodell übersetzt werden. In einer relationalen Datenbank werden die Daten in Form von Tabellen gespeichert. Das Relationenmodell beschreibt nun, welche Tabellen angelegt werden müssen, wie diese aufgebaut sind und wie sie miteinander verbunden sind.
+Wir verwenden eine relationale Datenbank und überführen das [[Entity-Relationship-Diagram|ER-Modell]] daher in ein relationales Datenmodell. Für die spätere [[Datenbank]] muss das konzeptionelle Datenmodell stattdessen in ein hierzu passendes logisches Datenmodell übersetzt werden. In einer [[Datenbankmodelle#Relationale Datenbanken (SQL)|relationalen Datenbank]] werden die Daten in Form von Tabellen gespeichert. Das [[Relationenmodell]] beschreibt nun, welche Tabellen angelegt werden müssen, wie diese aufgebaut sind und wie sie miteinander verbunden sind.
 
 | ER-Modell    | Relationenmodell |
 |--------------|------------------|
@@ -8,7 +8,7 @@ Wir verwenden eine relationale Datenbank und überführen das ER-Modell daher in
 | Attribut     | Attribut         |
 | Attributwert | Attributwert     |
 
-Die Relationen lassen sich entweder in Tabellenschreibweise oder im Relationenschema notieren. Die Beziehungen im klassischen Sinne werden aufgelöst und über Primär- und Fremdschlüssel abgebildet. Der Primärschlüssel wird dabei unterstrichen und er Fremdschlüssel entweder unterstrichelt oder durch einen hochzeigenden Pfeil (↑) vor dem Attributnamen maskiert.
+Die Relationen lassen sich entweder in Tabellenschreibweise oder im Relationenschema notieren. Die Beziehungen im klassischen Sinne werden aufgelöst und über [[Schlüssel#Primärschlüssel|Primär]]- und [[Schlüssel#Fremdschlüssel|Fremdschlüssel]] abgebildet. Der [[Schlüssel#Primärschlüssel|Primärschlüssel]] wird dabei unterstrichen und er [[Schlüssel#Fremdschlüssel|Fremdschlüssel]] entweder unterstrichelt oder durch einen hochzeigenden Pfeil (↑) vor dem Attributnamen maskiert.
 
 **Relationenschema**:
 - Kunde(kundeID, name, vorname)

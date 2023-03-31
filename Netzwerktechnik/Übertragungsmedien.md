@@ -25,6 +25,4 @@
 ### Glasfaser (LWL)
 Lichtwellenleiter (kurz LWL) sind *um ein Vielfaches schneller als Kupferkabel*. Außerdem sind diese *weniger störanfällig* gegenüber elektromagnetischen Einflüssen, da per Laser nur Lichtimpulse übertragen werden. Glasfaserkabel sind damit einhergehend deutlich *filigrane und teurere Ware*.
 
-Im *primären und sekundären Bereich wird Glasfaser* eingesetzt, zu den Endgeräten im tertiären Bereich werden Kupferkabel (min. Cat.5e, besser 6(a) oder 7) verlegt. Die angepeilte Struktur ist eine Stern-Stern-Topologie von den Gebäudeverteilern (kurz GVs, L3-Switches) über die Etagenverteilern (kurz EVs, L2-Switches) zu den Clients. Die Primärverkabelung endet/*beginnt am Router zum WAN*.
-
 ### Koaxialkabel

@@ -3,7 +3,7 @@ Die strukturierte Gebäudeverkabelung ist in der `DIN EN 50173` geregelt. Die No
 
 ![](../_Medien/EN_50173.png)
 
-Im *primären und sekundären Bereich wird Glasfaser eingesetzt*, zu den Endgeräten im tertiären 
-Bereich werden Kupferkabel (min. Cat.5e, besser 6(a) oder 7) verlegt. Die angepeilte Struktur ist eine Stern-Stern-Topologie von den Gebäudeverteilern (kurz GVs, L3-Switches) über die Etagenverteilern (kurz EVs, L2-Switches) zu den Clients. Die Primärverkabelung endet/*beginnt am Router zum WAN.*
+Im *primären und sekundären Bereich wird [[Übertragungsmedien#Glasfaser (LWL)|Glasfaser]] eingesetzt*, zu den Endgeräten im tertiären 
+Bereich werden [[Übertragungsmedien#Kupferkabel|Kupferkabel]] (min. Cat.5e, besser 6(a) oder 7) verlegt. Die angepeilte Struktur ist eine Stern-Stern-Topologie von den Gebäudeverteilern (kurz GV, [[Komponenten#Layer3-Switch|L3-Switch]]) über die Etagenverteilern (kurz EV, [[Komponenten#Switch|L2-Switch]]) zu den Clients. Die Primärverkabelung endet/*beginnt am [[Komponenten#Router|Router]] zum WAN.*
 
 ![](../_Medien/EN_50173_Netzwerk.png)

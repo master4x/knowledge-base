@@ -1,2 +1,2 @@
 # Gateways
-Ein Gateway vermittelt Daten in gegebenen Protokollen zwischen mehreren Netzwerken. In Netzwerken werden dazu Router eingesetzt, auf welchen in der Netzwerkkonfiguration der Clients als *(Standard-)Gateway* verweisen wird. Als Endpunkt wird die private IPv4-Adresse des Routers angegeben.
+Ein Gateway vermittelt Daten in gegebenen Protokollen zwischen mehreren Netzwerken. In Netzwerken werden dazu [[Komponenten#Router|Router]] eingesetzt, auf welchen in der Netzwerkkonfiguration der Clients als *(Standard-)Gateway* verweisen wird. Als Endpunkt wird die private IPv4-Adresse des Routers angegeben.

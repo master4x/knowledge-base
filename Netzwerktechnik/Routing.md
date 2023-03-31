@@ -1,5 +1,5 @@
 # Routing
-Ein Router hat immer nur Informationen über unmittelbar verbundene Netzwerke. Um ein Datenpacket in ein unbekanntes Netzwerk zu transportieren, muss der Router entscheiden, über welche Schnittstelle das Packet geleiten werden muss, damit es zum Ziel gelangt.
+Ein [[Komponenten#Router|Router]] hat immer nur Informationen über unmittelbar verbundene Netzwerke. Um ein Datenpacket in ein unbekanntes Netzwerk zu transportieren, muss der Router entscheiden, über welche Schnittstelle das Packet geleiten werden muss, damit es zum Ziel gelangt.
 
 ## Statisches Routing
 Beim statischen Routing werden die Routen manuell in Weiterleitungstabellen eingetragen. Dem Router liegen nur diese *Routen* als Datengrundlage vor.
@@ -19,5 +19,5 @@ Beim dynamischen Routing verwaltet der Router die Weiterleitungstabelle und trä
 
 **Zieladresse**: Die IP-Adresse des Zielnetzwerks. 
 **Netzmaske**: Die Subnetzmaske des Zielnetzwerks. 
-**Nächstes Gateway**: Die IP-Adresse des *Gateways des nächsten Routers*. 
-**Über Schnittstelle**: Die IP-Adresse der *ausgehenden Netzwerkkarte* des Routers.
+**Nächstes Gateway**: Die IP-Adresse des *Gateways des nächsten [[Komponenten#Router|Routers]]*. 
+**Über Schnittstelle**: Die IP-Adresse der *ausgehenden Netzwerkkarte* des [[Komponenten#Router|Routers]].

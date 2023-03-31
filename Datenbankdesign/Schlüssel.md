@@ -12,4 +12,4 @@ Ist ein Datensatz anhand *eines Attributes nicht eindeutig identifizierbar*, so 
 Gibt es in einer Tabelle *keine eindeutigen Spalten* bzw. Kombinationen aus Spalten, so kann auch auf einen künstlichen Schlüssel zurückgegriffen werden. In der Praxis wird häufig eine *fortlaufende Ganzzahlenfolge* verwendet, um einen Datensatz eindeutig identifizieren zu können.
 
 ## Fremdschlüssel
-Bei dem Fremdschlüssel (engl. „Foreign Key“) handelt es sich um eine Schlüsselspalte, die *auf einen Primärschlüssel* einer anderen (oder aber derselben) *Tabelle verweist*. Der Fremdschlüssel kann nur Werte annehmen, *die in der Referenztabelle vorhanden sind*. Zudem kann eine beliebige Anzahl von Datensätzen den gleichen Fremdschlüsselwert aufweisen.
+Bei dem Fremdschlüssel (engl. „Foreign Key“) handelt es sich um eine Schlüsselspalte, die *auf einen [[Schlüssel#Primärschlüssel|Primärschlüssel]]* einer anderen (oder aber derselben) *Tabelle verweist*. Der Fremdschlüssel kann nur Werte annehmen, *die in der Referenztabelle vorhanden sind*. Zudem kann eine beliebige Anzahl von Datensätzen den gleichen Fremdschlüsselwert aufweisen.
