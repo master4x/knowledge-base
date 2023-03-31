@@ -8,17 +8,17 @@ Das OSI-Modell ist ein Versuch der Abbildung von Netzwerkkommunikation. Alle Net
 1. Festlegung der Übertragung einzelner Bits 
    ➔Kabel, Stecker 
 2. Fehlererkennung und Korrektur 
-   ➔Netzwerkkarten, MAC-Adressen 
+   ➔Netzwerkkarten, [[MAC-Adressen]] 
 3. Sicherstellung von vorteilhaften Routen 
-   ➔IP-Adressen, Paketsplitting
+   ➔[[IP-Adressen]], Paketsplitting
 4. Weiterleitung von Datenpaketen 
-   ➔TCP/UDP, Ports 
+   ➔TCP/UDP, [[Ports]] 
 5. Synchronisierung und Dialogsteuerung 
    ➔Token-Management 
 6. Kodierung und Verschlüsslung 
-   ➔ASCII, AES 
+   ➔ASCII, [[Verschlüsselung|AES]] 
 7. Schnittstelle zum Anwender 
-   ➔Viele Protokolle (HTTP, FTP, …)
+   ➔[[Protokolle]] (HTTP, FTP, …)
 
 ## TCP/IP Referenzmodell
 ![](../_Medien/TCP_IP_Referenzmodell.png)

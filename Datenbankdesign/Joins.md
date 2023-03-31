@@ -7,9 +7,9 @@ SELECT * FROM Mitarbeiter JOIN Abteilung USING(AbteilungsID);
 
 | Join-Anweisung        | Visualisierung | SQL-Statement                                                                                   |
 | --------------------- | -------------- | ----------------------------------------------------------------------------------------------- |
-| (INNER) JOIN          | ![](../_Medien/Inner_Join.png) | `SELECT * FROM table_a JOIN table_b ON table_a.key = table_b.key;`                                |
-| LEFT/RIGHT INNER JOIN | ![](../_Medien/Left_Inner_Join.png) | `SELECT * FROM table_a LEFT JOIN table_b ON table_a.key = table_b.key;`                           |
-| LEFT/RIGHT OUTER JOIN | ![](../_Medien/Left_Outer_Join.png) | `SELECT * FROM table_a RIGHT JOIN table_b ON table_a.key = table_b.key WHERE table_b.key = null;` |
+| `(INNER) JOIN`          | ![](../_Medien/Inner_Join.png) | `SELECT * FROM table_a JOIN table_b ON table_a.key = table_b.key;`                                |
+| `LEFT/RIGHT INNER JOIN` | ![](../_Medien/Left_Inner_Join.png) | `SELECT * FROM table_a LEFT JOIN table_b ON table_a.key = table_b.key;`                           |
+| `LEFT/RIGHT OUTER JOIN` | ![](../_Medien/Left_Outer_Join.png) | `SELECT * FROM table_a RIGHT JOIN table_b ON table_a.key = table_b.key WHERE table_b.key = null;` |
 
 # INNER-Join & OUTER-Join
 - **INNER-Join**: Bei einem `INNER JOIN` handelt es sich um eine *gefilterte Form des Joins*, bei der in der Ergebnismenge nur die Tupel beider Ausgangstabellen zusammengeführt werden, die die vom Anwender definierte *Selektionsbedingung erfüllen*.
