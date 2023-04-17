@@ -4,20 +4,20 @@ publish = "public"
 
 [build.environment]
 # (Optional) Text in landing page button
-LANDING_BUTTON = "Los geht's!"
+LANDING_BUTTON = "Entdecken!"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = ""
+LANDING_DESCRIPTION = "Dieses Repository ist ein Wissens-Repo und bildet sämtlichen prüfungsrelevanten Lehrstoff für die schriftliche Abiturprüfung im Fach Technische Informatik ab. Als Erweiterung pflege ich die technischen Inhalte meiner anschließenden Ausbildung als Fachinformatiker ebenfalls ein."
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "readme"
 # (Optional) Site title on landing page
-LANDING_TITLE = "Willkommen!"
+LANDING_TITLE = "Technische Informatik!"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/master4x/knowledge-base/"
 # (Optional) Site title in navbar
 SITE_TITLE = "Knowladge Base"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
-SITE_TITLE_TAB = "Knowledge Base | Master4x"
+SITE_TITLE_TAB = "Knowledge Base"
 # (REQUIRED) Netlify site URL
 SITE_URL = "https://docs.leonkelle.eu/"
 # (Optional) Site Timezone
@@ -30,9 +30,9 @@ GANALYTICS = ""
 # (Optional, default true) Slugify URLs. Put "" to disable.
 SLUGIFY = "y"
 # (Optional, default true) Shows knowledge graph on home page. Put "" to disable.
-HOME_GRAPH = "n"
+HOME_GRAPH = "y"
 # (Optional, default true) Shows knowledge graph on every page. Put "" to disable.
-PAGE_GRAPH = "n"
+PAGE_GRAPH = "y"
 # (Optional, default false) Whether sidebar sections should be collapsed by default.
 SIDEBAR_COLLAPSED = "n"
 # (Optional, default blank) Additional footer content.
@@ -42,7 +42,7 @@ ROOT_SECTION_NAME = "main"
 # (Optional, default "y") Require whitespace for recognised linebreaks.
 STRICT_LINE_BREAKS = ""
 # (Optional, default "") Only display local connections to page in footer graph.
-LOCAL_GRAPH = "n"
+LOCAL_GRAPH = "y"
 # (Optional) visjs graph options. Can remove if desired.
 
 
@@ -61,8 +61,4 @@ sitemapPath = "/sitemap.xml"
 ignorePeriod = 0
 
 # Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
-providers = [
-  "google",
-  "bing",
-  "yandex",
-]
+providers = []

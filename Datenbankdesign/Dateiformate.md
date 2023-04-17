@@ -56,3 +56,5 @@ Was noch fehlt, ist der *Bezug zu einer DTD* (engl. „Document Type Definition�
    <!ELEMENT phone (#PCDATA)>
 ]>
 ```
+
+## JSON

@@ -35,7 +35,7 @@ In der demilitarisierten Zone befinden sich Server wie *Webserver, Mailserver, A
 ![](../_Medien/DMZ_Übersicht.png)
 
 ### 1-Firewall DMZ
-Vorteile einer 1-Firewall-DMZ sind der geringere Konfigurations- und Administrationsaufwand durch die günstige Anschaffung nur eines Geräts (Router). Nachteile ist der Wegfall der Sicherungseinheit durch die fehlende zweite Firewall.
+Vorteile einer 1-Firewall-DMZ sind der geringere Konfigurations- und Administrationsaufwand durch die günstige Anschaffung nur eines Geräts ([[Komponenten#Router|Router]]). Nachteile ist der Wegfall der Sicherungseinheit durch die fehlende zweite Firewall.
 
 ![](../_Medien/1_Firewall_DMZ.png)
 
