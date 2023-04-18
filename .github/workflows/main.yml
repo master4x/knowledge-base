@@ -2,7 +2,7 @@ name: Build and Deploy Webite
 on:
   push:
     branches:
-      - publish #master
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
