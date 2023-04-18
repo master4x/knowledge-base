@@ -25,4 +25,6 @@ jobs:
           server-dir: ${{ secrets.FTP_PATH }}
           state-name: ../.ftp-deploy-sync-state.json
           exclude: |
+            **/.git*
+            **/.git*/**
             netlify.toml
