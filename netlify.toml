@@ -6,11 +6,11 @@ publish = "public"
 # (Optional) Text in landing page button
 LANDING_BUTTON = "Entdecken!"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = "Dieses Repository ist ein Wissens-Repo und bildet sämtlichen prüfungsrelevanten Lehrstoff für die schriftliche Abiturprüfung im Fach Technische Informatik ab. Als Erweiterung pflege ich die technischen Inhalte meiner anschließenden Ausbildung als Fachinformatiker ebenfalls ein."
+LANDING_DESCRIPTION = "Digitales Notizbuch von Leon Niklas Kelle"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "readme"
 # (Optional) Site title on landing page
-LANDING_TITLE = "Technische Informatik!"
+LANDING_TITLE = "Technische Informatik"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/master4x/knowledge-base/"
