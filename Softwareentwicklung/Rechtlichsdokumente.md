@@ -1,4 +1,4 @@
-# Rechtliche Dokumente
+# Rechtlichsdokumente
 
 ## Pflichtenheft
 
