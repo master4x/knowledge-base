@@ -14,6 +14,7 @@ Die Relationen lassen sich entweder in Tabellenschreibweise oder im Relationensc
 - Kunde(kundeID, name, vorname)
 
 **Tabelle**: Kunde
+
 | kundeID | name       | vorname |
 |---------|------------|---------|
 | 1       | Mustermann | Max     |
