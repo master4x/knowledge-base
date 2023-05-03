@@ -3,6 +3,8 @@
 ## Generalisierung (is-a)
 ![](../_Medien/Generalisierung_ERD.png)
 
+siehe [[Generalisierung|Generalisierungsauflösung]]
+
 **Disjunktheit**
 - *disjunkt*: Kein Element mehreren Teilmengen vor.
 - *nicht-disjunkt*: Die Teilmengen enthalten gemeinsame Elemente.

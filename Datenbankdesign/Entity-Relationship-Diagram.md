@@ -6,4 +6,4 @@ Ein „Entity-Relationship-Diagram“ (kurz ERD) bzw. „Entity-Relationship-Mod
 - **Entitätstypen** werden groß und im Singular geschrieben. 
 - **Attribute** werden klein und eindeutig geschrieben. (Primärschlüssel unterstreichen) 
 - **Beziehungen** werden klein und in Leserichtung geschrieben. 
-- Keine Verwendung von Umlauten und Sonderzeichen.
+- Keine Verwendung von Umlauten und Sonderzeichen (inklusive Leerzeichen).
