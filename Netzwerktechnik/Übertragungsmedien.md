@@ -1,6 +1,7 @@
 # Übertragungsmedien
 
 ## Technologien
+XXX
 
 ## Medien
 
@@ -15,14 +16,51 @@
 | Cat.7     | 10 Gbit/s       | 600 MHz  | GG45    | ISO, EN      |
 
 #### Schirmung
-| Twisted-Pair-Kabel (TP) | U/UTP | S/UTP | U/FTP | S/FTP | S/STP | F/FTP | SF/FTP |
-| ----------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
-| Drahtgeflecht (S)       |       | X     |       | X     | X     |       | X      |
-| Folie (F)               |       |       |       |       |       | X     | X      |
-| Drahtgeflecht (S)       |       |       |       |       | X     |       |        |
-| Folie (F)               |       |       | X     | X     |       | X     | X      |
+- **Verdrillung** verringert die Störempfindlichkeit der einzelnen Aderpaare.
+- **Folienschirm**: Kunststofffolie mit äußerer Aluminiumbeschichtung
+	- bedeckt den Innenleiter zu 100%
+	- stabilisiert das Kabel
+	- bestmögliche Schirmung
+	- geringe Flexiblität
+- **Geflechtsschirm**: Kupferdrahtgeflecht
+	- bedeckt den Inneleiter zu 85-90%
+	- gute Schirmung
+	- flexibel
 
-### Glasfaser (LWL)
+
+##### Identifizierung
+*nach ISO 11801*:  `XX/YZZ`
+
+Gesamtschirmung `XX`:
+- `U` = ungeschirmt
+- `F` = Folienschirm
+- `S` = Geschlechtsschirm
+- `SF` = Geflechts- und Folienschirm
+
+Aderpaarschirmung `Y`:
+- `U` = ungeschirmt
+- `F` = Folienschirm
+- `S` = Geschlechtsschirm
+
+Verdrillungvariante `ZZ`:
+- `TP` = Twisted Pair
+- `QP` = Quad Pair
+
+| Twisted-Pair-Kabel (TP)   | U/UTP | S/UTP | U/FTP | S/FTP | S/STP | F/FTP | SF/FTP |
+| ------------------------- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
+| Gesamt: Drahtgeflecht (S) |       | X     |       | X     | X     |       | X      |
+| Gesamt: Folie (F)         |       |       |       |       |       | X     | X      |
+| Adern: Drahtgeflecht (S)  |       |       |       |       | X     |       |        |
+| Adern: Folie (F)          |       |       | X     | X     |       | X     | X      |
+
+### Glasfaser
 Lichtwellenleiter (kurz LWL) sind *um ein Vielfaches schneller als Kupferkabel*. Außerdem sind diese *weniger störanfällig* gegenüber elektromagnetischen Einflüssen, da per Laser nur Lichtimpulse übertragen werden. Glasfaserkabel sind damit einhergehend deutlich *filigrane und teurere Ware*.
 
+#### Single-Mode
+XXX
+
+#### Multi-Mode
+XXX
+
 ### Koaxialkabel
+XXX

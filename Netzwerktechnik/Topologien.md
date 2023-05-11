@@ -6,21 +6,30 @@ In der Stern-Topologie werden alle Clients mit einem dedizierten Kabel mit einem
 
 ![](../_Medien/Stern_Topologie.png)
 
+### Stern-Stern
+XXX
+
 ## Baum
 In der Baum-Topologie werden mehrere Hauptverteiler baumförmig auf weitere Unterverteiler verteilt. Das Netzwerk wird mit jeder Stufe deutlich größer. Diese Topologie wird nicht mehr oft verwendet, da man oft größere Stern-Netzte aufbaut.
 
 ![](../_Medien/Baum_Topologie.png)
 
 ## Bus
+XXX
 
 ## Ring
+XXX
 
-## Zelle (Cell)
+## Zelle
+XXX
 
 ## Punkt-zu-Punkt
+XXX
 
 ## Masche
 
-### Vollsätndige Masche
-
 ### Vollständige Masche
+XXX
+
+### Unvollständige Masche
+XXX
