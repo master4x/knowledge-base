@@ -36,4 +36,4 @@ Alle Datensätze werden hier, mit ihren Attributen, *in einer Relation* abgelegt
 **Beispiel**:
 - Person(id, typ, name, straße, ort, dat, fach)
 
-*Beim Anlegen eines Studenten wird das Feld „Fach“ mit* null *belegt und im Feld „Typ“ der Typ „Student“ hinterlegt.*
+*Beim Anlegen eines Studenten wird das Feld „Fach“ mit __null__ belegt und im Feld „Typ“ der Typ „Student“ hinterlegt.*

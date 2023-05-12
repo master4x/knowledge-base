@@ -7,4 +7,4 @@ Diese Sammlung ist eine private Zusammenstellung meiner Prüfungsvorbereitungsdo
 Der Herausgeber ergänzt und aktualisiert die Information auf dieser Seite in unregelmäßigen Abständen. Die Informationen wurden sorgfältig geprüft und gewissenhaft zusammengestellt. Für die hier angebotenen Informationen wird jedoch kein Anspruch auf Vollständigkeit, Aktualität, Qualität und Richtigkeit erhoben, insbesondere derer von verlinkten Seiten.
 
 ----
-Quelle: [master4x/knowledge-base](https://github.com/master4x/knowledge-base)
+**Quelle**: [master4x/knowledge-base](https://github.com/master4x/knowledge-base)

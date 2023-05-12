@@ -1,4 +1,13 @@
 # MAC-Adressen
-Jede MAC-Adresse wird in hexadezimaler Form angegeben und hat denselben einheitlichen Aufbau. Die ersten drei Bytes kennzeichnen den Hersteller (Vendor) und die zweiten drei Bytes sind die fortlaufende Nummer der Netzwerkkarte.
+Jedes Netzwerk-Interface hat eine eigene MAC-Adresse. MAC-Adressen bestehen aus 6 Oktetten (48 Bits). Die Adressen sind zweigeteilt in
+Herstellerkennung (Vendor-ID oder Organisationally Unique Identifier, kurz: OUI) und fortlaufende Nummer des Herstellers. Große Interface-Hersteller besitzen mehrere Vendor-IDs, welche bei der [[IEEE]] verwaltet werden.
 
-Die Vendorcodes werden von der [[IEEE]] zentral vergeben, dabei können Hersteller auch mehrere Kennziffern besitzen.
+Die Schreibweise für MAC-Adressen ist byteweise hexadezimal, meist mit Bindestrichen oder Doppelpunkten als Trennzeichen.
+
+## Besondere Bits
+Das erste Oktett der MAC-Adresse hat zwei Bits mit besonderer Funktion: Bit 0 gibt an, ob Unicast- oder Multicast-Adressierung vorliegt und Bit 1 gibt an, ob die Adresse global oder nur im LAN einzigartig ist.
+
+Multicast-Adressen adressieren beispielsweise alle Router im LAN oder alle Switches usw. Die Broadcast-Adresse lautet `ff-ff-ff-ff-ff-ff`.
+
+![[MAC_Adresse.png]]
+

@@ -9,7 +9,7 @@ Ein Netzwerkprotokoll ist ein Kommunikationsprotokoll für den Austausch von Dat
 | DNS      | Domain Name System                | Namensauflösung             | 53              |
 | ARP      | Address Resolution Protocol       | Zuordnung MAC zu IP         | -               |
 | HTTP(S)  | Hyper-Text Transfer Protocol      | Webseitenaufruf             | 80, 8080, (443) |
-| (S)FTP   | File Transfer Protocol            | Dateiübertragung            | 21, (115)       |
+| FTP      | File Transfer Protocol            | Dateiübertragung            | 21              |
 | POP3     | Post Office Protocol Version 3    | E-Mail: Empfang             | 110, 995        |
 | SMTP     | Simple Mail Transfer Protocol     | E-Mail: Versand             | 25, 465         |
 | IMAP     | Internet Message Access Protocol  | E-Mail: Empfang (erweitert) | 143, 993        |

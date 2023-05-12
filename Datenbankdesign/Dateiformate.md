@@ -39,7 +39,6 @@ Das XML-Format (engl. „Extensible Markup Language“) ist ein alternatives Dat
 
 ### Wohlgeformtheit
 Der Begriff Wohlgeformtheit, der Ihnen im Zusammenhang mit XML immer wieder begegnen wird, bedeutet, dass eine Datei die Regeln von XML korrekt einhält. Es handelt sich in folgenden Fällen um eine wohlgeformte XML-Datei:
-
 - am Beginn steht der Seite *XML-Deklaration*,
 - es gibt *mindestens ein Datenelement*,
 - alle Datenelementen haben ein äußerstes Element,
@@ -58,3 +57,4 @@ Was noch fehlt, ist der *Bezug zu einer DTD* (engl. „Document Type Definition�
 ```
 
 ## JSON
+XXX
