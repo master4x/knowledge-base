@@ -7,4 +7,4 @@ Nach der Synchronisation wird die Adresse des Interfaces übertragen, welches di
 |-----------------|---------------|-------------------|--------|-----------------|-----------|
 | 8 Byte          | 6 Byte        | 6 Byte            | 2 Byte | 46 - 1.500 Byte | 4 Byte    |
 
-*Interfaceadressen* und *Type* bilden den Protokollkopf oder Header. Zusammen mit der *Prüfsumme* (auch Frame-Check-Sequence oder FCS genannt) werden 18 Byte als „Protokolloverhead“ (Header: Interfaceadressen und Type, Trailer: Prüfsumme) beansprucht. Die Nutzdaten müssen nun mindestens 46 Byte groß sein, damit die Mindestgröße von 64 Bytes zur Gewährleistung der Kollisionserkennung erreicht werden kann. Die maximale Größe beträgt 1500 Byte.
+*Interfaceadressen* und *Type* bilden den Protokollkopf oder Header. Zusammen mit der *Prüfsumme* (auch Frame-Check-Sequence oder FCS genannt) werden 18 Byte als „Protokolloverhead“ (Header: Interfaceadressen und Type, Trailer: Prüfsumme) beansprucht. Die Nutzdaten müssen nun mindestens 46 Byte groß sein, damit die **Mindestgröße von 64 Bytes** zur Gewährleistung der Kollisionserkennung erreicht werden kann. Die maximale Größe beträgt 1500 Byte.

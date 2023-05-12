@@ -5,8 +5,7 @@ Herstellerkennung (Vendor-ID oder Organisationally Unique Identifier, kurz: OUI)
 Die Schreibweise für MAC-Adressen ist byteweise hexadezimal, meist mit Bindestrichen oder Doppelpunkten als Trennzeichen.
 
 ## Besondere Bits
-
-Das erste Oktett der MAC-Adresse hat zwei Bits mit besonderer Funktion: Bit 0 gibt an, ob Unicast- oder Multicast-Adressierung vorliegt und Bit 1 gibt an, ob die Adresse global oder nur im LAN einzigartig (unique) ist.
+Das erste Oktett der MAC-Adresse hat zwei Bits mit besonderer Funktion: Bit 0 gibt an, ob Unicast- oder Multicast-Adressierung vorliegt und Bit 1 gibt an, ob die Adresse global oder nur im LAN einzigartig ist.
 
 Multicast-Adressen adressieren beispielsweise alle Router im LAN oder alle Switches usw. Die Broadcast-Adresse lautet `ff-ff-ff-ff-ff-ff`.
 
