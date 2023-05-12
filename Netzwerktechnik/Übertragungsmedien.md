@@ -25,7 +25,7 @@ XXX
 - **Geflechtsschirm**: Kupferdrahtgeflecht
 	- bedeckt den Inneleiter zu 85-90%
 	- gute Schirmung
-	- flexibel
+	- hohe Flexiblität
 
 
 ##### Identifizierung
