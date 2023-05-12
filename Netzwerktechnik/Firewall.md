@@ -11,7 +11,6 @@ Die Regeln für die Firewall werden in der „Access Control List“ (kurz ACL) 
 | DENY      | ANY           | ANY       | ANY          | ANY  |
 
 Beispiel für eine portbasierte Regel (auch Portfreigabe) je nach Protokoll:
-
 | Erlaubnis | Quelladresse | Protokoll | Zieladresse | Port |
 |-----------|--------------|-----------|-------------|------|
 | ALLOW     | ANY          | TCP       | ANY         | 22   |
