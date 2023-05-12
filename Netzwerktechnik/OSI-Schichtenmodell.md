@@ -7,7 +7,7 @@ Das OSI-Modell ist ein Versuch der Abbildung von Netzwerkkommunikation. Alle Net
 
 1. Festlegung der Übertragung einzelner Bits 
    ➔Kabel, Stecker 
-2. Fehlererkennung und Korrektur 
+2. Fehlererkennung und -korrektur 
    ➔Netzwerkkarten, [[MAC-Adressen]] 
 3. Sicherstellung von vorteilhaften Routen 
    ➔[[IP-Adressen]], Paketsplitting
