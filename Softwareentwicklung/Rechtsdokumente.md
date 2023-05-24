@@ -5,10 +5,8 @@ Um Fehlplanungen zu vermeiden sollte auf entsprechende rechtsgültige Dokumentat
 Das Lastenheft beschreibt die Gesamtheit der Forderungen (ugs. das "*Was*") des **Auftraggebers** an die Lieferungen und Leistungen eines Auftragnehmers.  Ein Lastenheft kann als Ausschreibungs-, Angebots- oder Vertragsgrundlage dienen.
 
 **Kernpunkte**:
-- Zwang zur Konkretisierung bei Entwicklungsvorhaben (neue Erkenntnisse durch Versprachlichung von Ideen)
+- Zwang zur Konkretisierung bei Entwicklungsvorhaben (neue Erkenntnisse durch Verschriftlichung von Ideen)
 - Matrix zur Auswahl von Entwicklungspartnern (Ausschreibungen)
-- Rechtssicherheit
-- Imageaspekt (Nachweis von Professionalität)
 
 ## Pflichtenheft
 Es wird vom **Auftragnehmer** aus dem Lastenheft des Auftraggebers. Im Pflichtenheft wird die Realisierung der Produktanforderungen (ugs. das "*Wie*") näher beschrieben, mit den internen Verantwortlichen besprochen und schriftlich festgehalten.
@@ -16,9 +14,7 @@ Es wird vom **Auftragnehmer** aus dem Lastenheft des Auftraggebers. Im Pflichte
 **Kernpunkte**:
 - Plattform zum Nachweis von und Leistungsfähigkeit (Marketingfunktion)
 - Teilweise einzige Möglichkeit um Entwicklungsvorhaben zu akquirieren (Ausschreibungen)
-- Vorlage for weitere Entwicklungsschritte (je besser das Pflichtenheft, desto leichter die Umsetzung)
-- Einnahmequelle
-- Rechtssicherheit
+- Vorlage für weitere Entwicklungsschritte (je besser das Pflichtenheft, desto leichter die Umsetzung)
 
 ## Ablauf
 ![[Projektplanung_Dokumentenerstellung.png]]
