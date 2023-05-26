@@ -13,7 +13,7 @@
 	- Videokonferenz
 - Was? (Vorbereitung)
 	- Ist-Analyse
-	- Ziele ([[Rechtsdokumente#Lastenheft|Lastenheft]])
+	- Ziele
 - Wann? (Grobplanung)
 	- Beschaffungsplanung
 	- Bereitstellungsplanung
@@ -22,8 +22,8 @@
 - Ergenis Ist-Analyse
 	- Verbleibende Eigenleistung
 	- Neu-/ Ersatzbeschaffung
-	- Lieferwilligkeit /-fähigkeit
-- [[Rechtsdokumente#Pflichtenheft|Pflichteheft]] (Arbeitsplatz IT)
+	- Lieferfähigkeit / -willigkeit
+- Arbeitsplatz IT
 	- Desktop/Workstation/Notebooks
 	- Software
 	- Peripherie
