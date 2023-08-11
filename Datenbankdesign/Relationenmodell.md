@@ -8,10 +8,9 @@ Wir verwenden eine relationale Datenbank und überführen das [[Entity-Relations
 | Attribut     | Attribut         |
 | Attributwert | Attributwert     |
 
-Die Relationen lassen sich entweder in Tabellenschreibweise oder im Relationenschema notieren. Die Beziehungen im klassischen Sinne werden aufgelöst und über [[Schlüssel#Primärschlüssel|Primär]]- und [[Schlüssel#Fremdschlüssel|Fremdschlüssel]] abgebildet. Der [[Schlüssel#Primärschlüssel|Primärschlüssel]] wird dabei unterstrichen und er [[Schlüssel#Fremdschlüssel|Fremdschlüssel]] entweder unterstrichelt oder durch einen hochzeigenden Pfeil (↑) vor dem Attributnamen maskiert.
+Die Relationen lassen sich entweder in Tabellenschreibweise oder im Relationenschema notieren. Die Beziehungen im klassischen Sinne werden aufgelöst und über [[Schlüssel#Primärschlüssel|Primär]]- und [[Schlüssel#Fremdschlüssel|Fremdschlüssel]] abgebildet. Der [[Schlüssel#Primärschlüssel|Primärschlüssel]] wird dabei unterstrichen und der [[Schlüssel#Fremdschlüssel|Fremdschlüssel]] entweder unterstrichelt oder durch einen hochzeigenden Pfeil (↑) vor dem Attributnamen maskiert. Der Fremdschlüssel stellt eine Ergänzung gegenüber des [[Entity-Relationship-Diagram|ERD]] dar. Bei der Auflösung gilt der Entitätstyp, welcher zu seinem Gegenüber nur einen Eintrag pflegt.
 
-**Relationenschema**:
-- Kunde(kundeID, name, vorname)
+**Relationenschema**: Kunde(<u>kundeID</u>, name, vorname)
 
 **Tabelle**: Kunde
 

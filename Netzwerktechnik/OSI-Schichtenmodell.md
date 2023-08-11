@@ -18,7 +18,7 @@ Das OSI-Modell ist ein Versuch der Abbildung von Netzwerkkommunikation. Alle Net
 6. Kodierung und Verschlüsslung 
    ➔ASCII, [[Verschlüsselung|AES]] 
 7. Schnittstelle zum Anwender 
-   ➔[[Protokolle]] (HTTP, FTP, …)
+   ➔[[Protokolle]]
 
 ## TCP/IP Referenzmodell
 ![](../_Medien/TCP_IP_Referenzmodell.png)
