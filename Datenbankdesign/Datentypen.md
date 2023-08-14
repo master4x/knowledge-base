@@ -1,4 +1,5 @@
 # SQL-Datentypen
+
 | Datentyp       | Beispielwert          | Beschreibung                 |
 | -------------- | --------------------- | ---------------------------- |
 | INT            | 12345678              | Ganzzahlen                   |

@@ -6,6 +6,7 @@
 
 # Exclude Untitled Notes
 Untitled*
+
 # Exclude "bad" names
 null*
 

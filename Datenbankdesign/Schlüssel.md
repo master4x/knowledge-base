@@ -13,3 +13,4 @@ Gibt es in einer Tabelle *keine eindeutigen Spalten* bzw. Kombinationen aus Spal
 
 ## Fremdschlüssel
 Bei dem Fremdschlüssel (engl. „Foreign Key“) handelt es sich um eine Schlüsselspalte, die *auf einen [[Schlüssel#Primärschlüssel|Primärschlüssel]]* einer anderen (oder aber derselben) *Tabelle verweist*. Der Fremdschlüssel kann nur Werte annehmen, *die in der Referenztabelle vorhanden sind*. Zudem kann eine beliebige Anzahl von Datensätzen den gleichen Fremdschlüsselwert aufweisen.
+

@@ -18,7 +18,7 @@ Das XML-Format (engl. „Extensible Markup Language“) ist ein alternatives Dat
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
-<autohaus>
+<autos>
    <auto>
       <marke>Porsche</marke>
       <modell>911</modell>
@@ -34,7 +34,7 @@ Das XML-Format (engl. „Extensible Markup Language“) ist ein alternatives Dat
       <modell>Q3</modell>
       <leistung>110</leistung>
    </auto>
-</autohaus>
+</autos>
 ```
 
 ### Wohlgeformtheit
@@ -58,3 +58,27 @@ Was noch fehlt, ist der *Bezug zu einer DTD* (engl. „Document Type Definition�
 
 ## JSON
 XXX
+
+``` json
+{
+  "autos": {
+    "auto": [
+      {
+        "marke": "Porsche",
+        "modell": 911,
+        "leistung": 350
+      },
+      {
+        "marke": "Skoda",
+        "modell": "Octavia",
+        "leistung": 140
+      },
+      {
+        "marke": "Audi",
+        "modell": "Q3",
+        "leistung": 110
+      }
+    ]
+  }
+}
+```
