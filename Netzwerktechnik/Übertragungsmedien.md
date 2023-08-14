@@ -9,6 +9,7 @@ XXX
 **Faustregel**: Netzwerkkabel nicht länger als 100m am Stück verlegen.
 
 #### Kategorien
+
 | Kategorie | Geschwindigkeit | Frequenz | Stecker | Norm         |
 |-----------|-----------------|----------|---------|--------------|
 | Cat.5e    | 1 Gbit/s        | 100 MHz  | RJ45    | TIA          |
