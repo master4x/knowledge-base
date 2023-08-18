@@ -1,10 +1,10 @@
 # IT-Schutzziele
 
-## Integrität
+**Integrität**
 Ressourcen und Informationen
 
-## Vertraulichkeit
+**Vertraulichkeit**
 Korrektheit von Informationen, Authentizität Echtheit und Überprüfbarkeit
 
-## Verfügbarkeit
-personenbezogene Daten, digitale Werte
+**Verfügbarkeit**
+Personenbezogene Daten, digitale Werte

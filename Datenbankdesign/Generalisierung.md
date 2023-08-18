@@ -1,4 +1,5 @@
 # Generalisierung
+Siehe [[Spezielle Beziehungen#Generalisierung (is-a)|Generalisierung]] unter spezielle Beziehungen
 ## Auflösung
 ### Hausklassenmodell
 Beim Hausklassenmodell wird *für jeden Entitätstyp eine Relation erzeugt, welche alle Attribute der Oberklassen beinhaltet*. Jede Instanz ist daher komplett und von anderen unabhängig, dies *erspart Redundanzen erschwert aber die Suche*, da mehrere Tabellen durchsucht werden müssen, z.B. bei der Suche nach der Person mit der ID 5. Die Basisklasse kann hierbei entfallen.
@@ -31,7 +32,6 @@ Beim Partitionierungsmodell werden *nur die (auf der Vererbungsstufe) neu hinzuk
 *Wird ein Student angelegt, so werden die Eigenschaften zur Person in die Personentabelle eingetragen, die zusätzlichen Informationen werden in die Studententabelle eingetragen.*
 
 ### Überrelation
-
 Alle Datensätze werden hier, mit ihren Attributen, *in einer Relation* abgelegt, was die *Nachteile der bisherigen Lösungen beseitigt*. Zusätzlich wird jedoch noch ein Attribut "Typ" mit in die Relation aufgenommen, was eine Zuordnung des Entitätstyps ermöglicht. Nachteilig wirkt sich hier aus, *dass alle Attribute in einer Relation* landen, was bei vielen Attributen zu *Unübersichtlichkeit* führen kann. Attribute die nicht zum jeweiligen Typ gehören werden mit null belegt. Der Benutzer muss immer wissen, welche Attribute zu welchem Typ gehören.
 
 **Beispiel**:
