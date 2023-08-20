@@ -1,5 +1,5 @@
 # VPN
-VPN (engl. „Virtual Private Network“) bezeichnet eine *getunnelte Netzwerkverbindung* mit *optionaler Verschlüsslung* (je nach [[Protokoll]]) in ein anderes Netzwerk, welche von außen nicht einsehbar ist.
+VPN (engl. „Virtual Private Network“) bezeichnet eine *getunnelte Netzwerkverbindung* mit *optionaler Verschlüsslung* (je nach [[Protokolle|Protkoll]]) in ein anderes Netzwerk, welche von außen nicht einsehbar ist.
 
 ![](../_Medien/VPN.png)
 
