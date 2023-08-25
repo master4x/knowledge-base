@@ -3,7 +3,7 @@
 ## Generalisierung (is-a)
 ![](../_Medien/Generalisierung_ERD.png)
 
-siehe [[Generalisierung]]
+siehe [[Vererbung]]
 
 **Disjunktheit**
 - *disjunkt*: Kein Element liegt in mehreren Teilmengen vor.
