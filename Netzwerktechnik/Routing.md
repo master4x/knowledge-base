@@ -8,16 +8,27 @@ Beim statischen Routing werden die Routen manuell in Weiterleitungstabellen eing
 Beim dynamischen Routing verwaltet der Router die Weiterleitungstabelle und trägt im laufenden Betrieb neu ermittelte Routen automatisch ein.
 
 ## Weiterleitungstabelle
-| Ziel        | Subnetzmaske    | Gateway     | Schnittstelle |
-|-------------|-----------------|-------------|---------------|
-| 192.168.3.1 | 255.255.255.255 | 127.0.0.1   | 127.0.0.1     |
-| 192.168.2.1 | 255.255.255.255 | 127.0.0.1   | 127.0.0.1     |
-| 192.168.3.0 | 255.255.255.0   | 192.168.3.1 | 192.168.3.1   |
-| 192.168.2.0 | 255.255.255.0   | 192.168.2.1 | 192.168.2.1   |
-| 127.0.0.1   | 255.0.0.0       | 127.0.0.1   | 127.0.0.1     |
-| 172.16.3.0  | 255.255.0.0     | 192.168.3.2 | 192.168.3.1   |
+In der Weiterleitungstabelle, auch Routingtabelle, sind die logischen Verknüpfungen für die Adresszuordnung gespeichert. Hier werden den Adaptern die passenden Adressen, Netzwerke, Broadcasts und Routen zugeordnet.
+
+| Ziel        | Subnetzmaske    | Gateway     | Schnittstelle | Metrik¹ |
+|-------------|-----------------|-------------|---------------| --------|
+| 192.168.3.1 | 255.255.255.255 | 127.0.0.1   | 127.0.0.1     | 25      |
+| 192.168.2.1 | 255.255.255.255 | 127.0.0.1   | 127.0.0.1     | 25      |
+| 192.168.3.0 | 255.255.255.0   | 192.168.3.1 | 192.168.3.1   | 45      |
+| 192.168.2.0 | 255.255.255.0   | 192.168.2.1 | 192.168.2.1   | 45      |
+| 127.0.0.1   | 255.0.0.0       | 127.0.0.1   | 127.0.0.1     | 2       |
+| 172.16.3.0  | 255.255.0.0     | 192.168.3.2 | 192.168.3.1   | 3       |
+
+¹Die Metrik ist eine Routeninformation, welche durch direkte Eingaben nicht veränderlich ist.
 
 **Zieladresse**: Die IP-Adresse des Zielnetzwerks. 
 **Subnetzmaske**: Die Subnetzmaske des Zielnetzwerks. 
-**Gateway**: Die IP-Adresse des *Gateways des nächsten [[Komponenten#Router|Routers]]*. 
+**Gateway**: Die IP-Adresse des *Gateways des (nächsten) [[Komponenten#Router|Routers]]*. 
 **Schnittstelle**: Die IP-Adresse der *ausgehenden Netzwerkkarte* des [[Komponenten#Router|Routers]].
+**Metrik**: Die Anzahl der [[Routing#Hop|Hops]] für die Verbindung dieser Route. (siehe [[Routing#Metrik|Metrik]])
+
+### Metrik
+Unter Metrik versteht man einen numerischen Wert, der einer Route zugeordnet ist. Ein niedriger Wert führt dazu, dass die Route vom System bevorzugt wird, falls zwei Routen zu demselben Ziel existieren. Metriken können etwa Kosten darstellen oder sie weisen auf Faktoren wie Bandbreite, Geschwindigkeit, Zuverlässigkeit, Pfadlänge oder Verzögerung von Routen hin. 
+
+### Hop
+Als Hop bezeichnet man jegliche aktive Routing-Komponenten (z.B. [[Komponenten#Router|Router]] oder [[Komponenten#Layer3-Switch|L3-Switch]]) auf einer Paketroute. Man kann den ersten oder nächsten Knotenpunkt auch als *Next Hop* bezeichnen. 

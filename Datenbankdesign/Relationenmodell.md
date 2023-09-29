@@ -20,7 +20,9 @@ Die Relationen lassen sich entweder in Tabellenschreibweise oder im Relationensc
 | …       | …          | …       |
 
 ## Zwischenrelationen
-Besteht zwischen zwei Entitätstypen ein n:m-Beziehungstyp beziehungsweise eine Variante mit dem Buchstaben `c` (`m:nc`,  `mc:nc`), wird eine neue Relation angelegt. Diese besteht aus zwei Attributen – den Primärschlüsseln der aus den beiden verbundenen Entitätstypen hervorgegangenen Relationen. Gleichzeitig fungiert jedes der beiden Attribute als Fremdschlüssel. Im Namen der Relation sollten die Namen der Ursprungsentitätstypen vorkommen, wobei diese durch einen Zusatz, den Namen der Beziehung oder durch eine Zahl bzw. ein Sonderzeichen getrennt werden.
+Besteht zwischen zwei Entitätstypen ein n:m-Beziehungstyp beziehungsweise eine Variante mit dem Buchstaben `c` (`m:nc`,  `mc:nc`), wird eine neue Relation angelegt. Ein weiteres Beispiel für die Einführung sind [[Entity-Relationship-Diagram|Beziehungsattribute]]. Diese besteht aus zwei Attributen – den Primärschlüsseln der aus den beiden verbundenen Entitätstypen hervorgegangenen Relationen, was einen [[Schlüssel#Zusammengesetzte Primärschlüssel|zusammengesetzen Primärschlüssel]] ergibt. Gleichzeitig fungiert jedes der beiden Attribute als Fremdschlüssel. Die Voraussetzung beide Fremdschlüssel zu füllen, spricht gegen die [[Referentielle Integrität]] beider abhängiger Relationen.
+
+Im Namen der Relation sollten die Namen der Ursprungsentitätstypen vorkommen, wobei diese durch einen Zusatz, den Namen der Beziehung oder durch eine Zahl bzw. ein Sonderzeichen getrennt werden.
 
 **Beispiele**:
 - KundeZuBestellung(…)

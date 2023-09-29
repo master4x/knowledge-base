@@ -1,2 +1,0 @@
-# Schutzbedarfsfeststellung
-XXX
