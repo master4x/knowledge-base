@@ -2,7 +2,13 @@
 Eine Firewall ist ein Sicherungssystem, das ein Rechnernetz oder einen einzelnen Computer *vor
 unerwünschten Netzwerkzugriffen schützt*. Mit einer Firewall lässt sich der kommende und gehende Datenverkehr *kontrollieren, protokollieren, sperren und freigeben*.
 
-Die Regeln für die Firewall werden in der „Access Control List“ (kurz ACL) definiert. *Die Reihenfolge der Regelsätze ist relevant* für die Ausführung. Die erste Regel, die für ein Datenpaket greift, wird angewendet – weitere Regeln werden in solchen Szenarien nicht beachtet.
+## Access Control List
+
+Die Regeln für die Firewall werden in der „Access Control List“ (kurz ACL) definiert. *Die Reihenfolge der Regelsätze ist relevant* für die Ausführung. Die erste Regel, die für ein Datenpaket greift, wird angewendet – weitere Regeln werden in solchen Szenarien nicht beachtet. 
+
+Man unterscheidet zwischen dem Zero-Trust-Prinzip, der Whitelist (blockiert jegliche Pakete, welche nicht explizit freigegeben sind) und der Blacklist (Erlaubt jegliche Pakete, was nicht expliziert blockiert wurde), welche den Netzwerkverkehr filtern.
+
+Eine Firewall arbeitet klassischerweise auf der [[OSI-Schichtenmodell|Vermittlungsschicht (Layer 3)]] und der [[OSI-Schichtenmodell|Transportschicht (Layer 4)]]. Aus diesem Grund werden Firewalls auch Paketfilter genannt.
 
 | Erlaubnis | Quelladresse  | Protokoll | Zieladresse  | Port |
 |-----------|---------------|-----------|--------------|------|
