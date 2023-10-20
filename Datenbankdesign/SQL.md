@@ -1,14 +1,12 @@
-# SQL
-
-## DDL - Data Definition Language
+# DDL - Data Definition Language
 z.B. `CREATE`
 
-## DML - Data Manipulation Language
+# DML - Data Manipulation Language
 z.B. `INSERT`
 
-## DCL - Data Control Language
+# DCL - Data Control Language
 z.B. `GRANT`
 
-## DQL - Data Query Language
+# DQL - Data Query Language
 z.B. `SELECT`
 

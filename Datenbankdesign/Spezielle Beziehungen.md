@@ -1,6 +1,4 @@
-# Spezielle Beziehungstypen
-
-## Generalisierung (is-a)
+# Generalisierung (is-a)
 ![](../_Medien/Generalisierung_ERD.png)
 
 siehe [[Vererbung]]
@@ -13,8 +11,8 @@ siehe [[Vererbung]]
 - *total*: Es gibt keine weiteren Teilmengen (in der Spezialisierung).
 - *partiell*: Nicht alle möglichen Teilmengen sind aufgeführt.
 
-## Aggregation (part-of)
+# Aggregation (part-of)
 ![](../_Medien/Aggregation_ERD.png)
 
-## Rekursion
+# Rekursion
 ![](../_Medien/Rekursion_ERD.png)

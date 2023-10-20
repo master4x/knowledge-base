@@ -1,11 +1,9 @@
-# Architektur
-
-## Von-Neumann-Architektur
+# Von-Neumann-Architektur
 ![](../_Medien/Von_Neumann_Architektur.png)
 
-## Schichtenmodell
+# Schichtenmodell
 ![](../_Medien/Schichtenmodell.png)
 
-## Schalenmodell
+# Schalenmodell
 ![](../_Medien/Schalenmodell.png)
 

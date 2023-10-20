@@ -1,14 +1,12 @@
-# Übertragungsmedien
+# Technologien
+WIP
 
-## Technologien
-XXX
+# Medien
 
-## Medien
-
-### Kupferkabel
+## Kupferkabel
 **Faustregel**: Netzwerkkabel nicht länger als 100m am Stück verlegen.
 
-#### Kategorien
+### Kategorien
 
 | Kategorie | Geschwindigkeit | Frequenz | Stecker | Norm         |
 |-----------|-----------------|----------|---------|--------------|
@@ -16,7 +14,7 @@ XXX
 | Cat.6     | 1 Gbit/s        | 250 MHz  | RJ45    | ISO, EN, TIA |
 | Cat.7     | 10 Gbit/s       | 600 MHz  | GG45    | ISO, EN      |
 
-#### Schirmung
+### Schirmung
 - **Verdrillung** verringert die Störempfindlichkeit der einzelnen Aderpaare.
 - **Folienschirm**: Kunststofffolie mit äußerer Aluminiumbeschichtung
 	- bedeckt den Innenleiter zu 100%
@@ -29,7 +27,7 @@ XXX
 	- hohe Flexiblität
 
 
-##### Identifizierung
+#### Identifizierung
 *nach ISO 11801*:  `XX/YZZ`
 
 Gesamtschirmung `XX`:
@@ -54,14 +52,14 @@ Verdrillungvariante `ZZ`:
 | Adern: Drahtgeflecht (S)  |       |       |       |       | X     |       |        |
 | Adern: Folie (F)          |       |       | X     | X     |       | X     | X      |
 
-### Glasfaser
+## Glasfaser
 Lichtwellenleiter (kurz LWL) sind *um ein Vielfaches schneller als Kupferkabel*. Außerdem sind diese *weniger störanfällig* gegenüber elektromagnetischen Einflüssen, da per Laser nur Lichtimpulse übertragen werden. Glasfaserkabel sind damit einhergehend deutlich *filigrane und teurere Ware*.
 
-#### Single-Mode
-XXX
+### Single-Mode
+WIP
 
-#### Multi-Mode
-XXX
+### Multi-Mode
+WIP
 
-### Koaxialkabel
-XXX
+## Koaxialkabel
+WIP

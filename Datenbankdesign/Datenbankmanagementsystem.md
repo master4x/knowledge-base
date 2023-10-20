@@ -1,7 +1,6 @@
-# Datenbankmanagementsystem
 Ein Datenbankmanagementsystem, kurz *DBMS*, bildet gemeinsam mit der Datenbasis ein Datenbanksystem (häufig wird für letzteres auch der allgemeine Begriff „Datenbank“ verwendet). Generell handelt es sich bei einem solchen DBMS um eine *Software*, die das *Modell eines Datenbanksystems festlegt* und damit die entscheidende Komponente ist, um eine Datenbank überhaupt aufbauen, verwalten und nutzen zu können.
 
-## Aufgaben
+# Aufgaben
 1. Datenintegration: Einheitliche Verwaltung aller Datensätze
 2. Datenoperationen: Ermöglichen von suchen, verändern und speichern
 3. Datenkatalog: (*Data Dictionary*) enthält die Metadaten der Datenbank

@@ -1,4 +1,3 @@
-# Netzwerklassen
 Die Einteilung von IP-Adressen in Netzwerkklassen wurde mit der Einführung von [[Subnetzmaske#CIDR-Schreibweise|CIDR]] abgelöst. Sie hat heute fast keine praxisrelevante Bedeutung mehr, da die Größe eines Subnetzes nicht mehr nur aus der IP-Adresse abzuleiten ist, sondern zwingend die Angabe einer [[Subnetzmaske]] erforderlich ist.
 
 | Klasse | Adressbereich               | Subnetzmaske  |
@@ -9,10 +8,10 @@ Die Einteilung von IP-Adressen in Netzwerkklassen wurde mit der Einführung von 
 | D      | 224.0.0.0 – 239.255.255.255 | (Multicast)   |
 | E      | 240.0.0.0 – 255.255.255.255 | (Reserviert)  |
 
-## Logische Einteilung
+# Logische Einteilung
 ![[Netzwerkklassen.png]]
 
-## Private Netzwerke
+# Private Netzwerke
 
 | Klasse | Adressbereich                 | Subnetzmaske  | 
 |--------|-------------------------------|---------------| 

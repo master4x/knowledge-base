@@ -1,27 +1,26 @@
-# Programcode
 Die Programmiersprache von Arduino kann in drei Hauptteile unterteilt werden: *Struktur*, *Werte* (Variablen und Konstanten) und *Funktionsbasis*. Die Struktur bilden Elemente der [[Arduino]] (C++) Programmiersprache mit den *Sketchfunktionen* `setup()` und `loop()` sowie (bitweise) *Operatoren* und *Syntax*. Für Variablen können bekannte Datentypen der C-Ableger verwendet werden. Im Bereich Funktionenbasis können vordefinierte Funktionen, ähnlich zu komplexeren Sprachen wie Java, eingesetzt werden um *Berechnungen effizienter durchzuführen*.
 
-## Beispiele
+# Beispiele
 
-### Digital I/O
+## Digital I/O
 - `digitalRead(pin)`
 - `digitalWrite(pin, value)`
 - `pinMode(pin, mode)`
 
-### Analog I/O
+## Analog I/O
 - `analogRead(pin)`
 - `analogWrite(pin, value)`
 
-### Timer/Counter
+## Timer/Counter
 - `delay(ms)`
 - `micros()`
 - `millis()`
 
-### Mathe
+## Mathe
 - `map(value, fromLow, fromHigh, toLow, toHigh)`
 - `min(x, y)`
 - `max(x, y)`
 
-### Zufall
+## Zufall
 - `random(min, max)`
 - `randomSeed(seed)`

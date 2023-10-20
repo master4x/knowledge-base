@@ -1,9 +1,7 @@
-# Datenbank
-
-## Definition
+# Definition
 Eine Datenbank ist eine Modellierung eines Ausschnitts der Realität.
 
-## Zweck
+# Zweck
 - Speichern von Daten in struckturierter Form
 - Verwaltung & Bereitstellung von Daten *(z.B. Indexierung)*
 	- Unterstützung für Abfragesprachen wie SQL
