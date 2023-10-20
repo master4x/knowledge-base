@@ -1,2 +1,1 @@
-# IP-Schutzklassen
-XXX
+WIP

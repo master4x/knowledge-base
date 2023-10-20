@@ -1,8 +1,7 @@
-# Anforderungen
-XXX
+WIP
 
-## Funktionale Anforderungen
-XXX
+# Funktionale Anforderungen
+WIP
 
-## Nichtfunktionale Anforderungen
-XXX
+# Nichtfunktionale Anforderungen
+WIP

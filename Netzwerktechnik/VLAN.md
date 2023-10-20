@@ -1,16 +1,15 @@
-# VLAN
 Ein „Virtual Local Area Network“ (VLAN) ist ein *logisches Teilnetz* innerhalb eines [[Komponenten#Switch|Switches]] bzw. eines gesamten physischen Netzwerks. Es kann sich *über mehrere Switches hinweg* ausdehnen. Ein VLAN trennt physische Netze in virtuelle Teilnetze auf, indem es dafür sorgt, dass *VLAN-fähige [[Komponenten#Switch|Switches]]* Pakete nicht in ein anderes VLAN weiterleiten obwohl die Teilnetze an gemeinsamen Switches angeschlossen sein können. Die Zuordnung der Teilnetze zu einem VLAN kann statisch über *Portzuordnung* an den [[Komponenten#Switch|Switches]] erfolgen, über *spezielle Markierungen an den Paketen* realisiert sein oder dynamisch erfolgen. Jedes VLAN bildet (wie ein normales, physisch separiertes Teilnetz) eine eigene Broadcastadresse, durch die Virtualisierung arbeitet VLAN hingegen auf der *2. OSI-Schicht*.
 
 Um den Netzwerkverkehr zwischen den VLANs zu routen, benötigt man einen [[Komponenten#Router|Router]] oder einen [[Komponenten#Layer3-Switch|L3-Switches]]. Um die Kommunikation zwischen VLANs direkt auf anliegenden [[Komponenten#Layer3-Switch|L3-Switches]] durchführen zu können, müssen diese konfiguriert werden, andernfalls wird der Netzwerktraffic als *Inter-VLAN-Routing* immer erst zum [[Komponenten#Router|Router]] geleitet. In der Konfiguration der [[Komponenten#Layer3-Switch|L3-Switches]] werden sog. SVIs („Switch Virtual Interfaces“) konfiguriert, welche als virtuelle IP-Client auftauchen und ein 1:1-Mapping zwischen einem bestimmten VLAN und dem SVI (ugs. VLAN-Interface) durchführt.
 
 ![](../_Medien/VLAN_SVI.png)
 
-## Portbasiertes VLAN
+# Portbasiertes VLAN
 Portbasierte VLANs sind die *Urform der VLANs*. Hier wird mit [[Komponenten#Layer3-Switch|L3-Switches]] ein physisches Netzwerk portweise in mehrere logische Netzwerke segmentiert, indem ein Port einem VLAN fix zugeordnet wird. Im Frame vorhandene Tags werden vom [[Komponenten#Switch|Switch]] entfernt bevor dieses weitergeleitet wird. Man spricht hier daher von einem *untagged* Port.
 
 ![](../_Medien/Portbasiertes_VLAN.png)
 
-## Tagged VLAN
+# Tagged VLAN
 Die paketbasierten tagged VLANs stehen im Unterschied zu den älteren markierungslosen, portbasierten VLANs. Es handelt sich also bei tagged VLANs um Netzwerke, die Netzwerkpakete verwenden, welche eine zusätzliche VLAN-Markierung tragen.
 
 ![](../_Medien/Tagged_VLAN.png)

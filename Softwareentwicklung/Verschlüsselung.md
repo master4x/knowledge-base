@@ -1,8 +1,7 @@
-# Verschlüsselung
-XXX
+WIP
 
-## Synchrone Verschlüsselung
-XXX
+# Synchrone Verschlüsselung
+WIP
 
-## Asynchrone Verschlüsselung
-XXX
+# Asynchrone Verschlüsselung
+WIP

@@ -1,23 +1,22 @@
-# Datenbankmodelle
 Der Aufbau eines Datenbankmodells lässt sich über drei Faktoren abbilden:
 - Generische Datenstruktur
 - Generische Operatoren
 - Integritätsbedingungen
 
-## Relationale Datenbanken (SQL)
-XXX
+# Relationale Datenbanken (SQL)
+WIP
 
-## Dokumentenorientierte Datenbanken (NoSQL)
-XXX
+# Dokumentenorientierte Datenbanken (NoSQL)
+WIP
 
-## Spaltenorientierte Datenbanken
-XXX
+# Spaltenorientierte Datenbanken
+WIP
 
-## Objektorientierte Datenbanken
-XXX
+# Objektorientierte Datenbanken
+WIP
 
-## Hierarchische Datenbanken
-XXX
+# Hierarchische Datenbanken
+WIP
 
-## Netzwerkdatenbanken
-XXX
+# Netzwerkdatenbanken
+WIP

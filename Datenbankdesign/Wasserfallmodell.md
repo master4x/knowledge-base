@@ -1,13 +1,12 @@
-# Konzeptuelles Wasserfallmodell
 ![](../_Medien/Wasserfallmodell.png)
 
-## Vorteile
+# Vorteile
 - Bessere Zeitabschätzung (Überblick über anfallende Kosten)
 - Bei kleinen Projekt soll es weniger Abbrüche geben
 - Einfache Möglichkeit von Planung und Kontrolle
 - Analyse ermöglicht eine detaillierte Beschreibung von Vorstellungen
 
-## Nachteile
+# Nachteile
 - Sehr unflexible Vorgehensweise
 - Hohe Kosten bei unerwarteten Problemen
 - Bei großen Projekten kann es eher zum Scheitern kommen.

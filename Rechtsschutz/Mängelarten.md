@@ -1,34 +1,32 @@
-# Mängelarten
-
-## Qualitätsbegriff
+# Qualitätsbegriff
 1. Beschaffenheit, Merkmal, Eigenschaft und Zustand
 2. Güte aller Eigenschaften eines Objekts, Systems oder Prozesses
 3. Zweckangemessenheit eines Produkts (Produktqualität), einer Dienstleistung (Servicequalität) oder eines Prozesses (Prozessqualität)
 
-## Vereinbarungsstufen
+# Vereinbarungsstufen
 1. Vertraglich vereinbart
 2. Vertraglich vorausgesetzte Verwendung
 3. Gewöhnliche Verwendung
 
-## Außmaß
+# Außmaß
 - behebbare
 - nicht behebbare
 - erhebliche
 - geringfügige
 
-## Erkennbarkeit
+# Erkennbarkeit
 - offene
 - versteckte
 - arglistig verschwiegene
 
-## Rechtsmangel
+# Rechtsmangel
 *siehe § 435 BGB*
 Dritte machen Rechte über den Vertrag hinaus geltend.
 
-## Sachmangel
+# Sachmangel
 *siehe § 434 BGB*
 
-### Qualitätsmangel
+## Qualitätsmangel
 - nicht wie vertraglich vereinbart, **sonst**
 	- für vertragliche vorausgesetzte Verwendung nicht geeignet, **sonst**
 		- für die gewöhnliche Verwendung nicht geeignet, weist keine beschaffenheiten auf, die bei Sachen der gleichen Art üblich ist und die der Käufer nach der Art der Sache erwarten kann
@@ -36,8 +34,8 @@ Dritte machen Rechte über den Vertrag hinaus geltend.
 - mangelhafte Montageanleitung bei fehlerhafter Montage (IKEA-Klausel)
 - Sache entspricht nicht der Kennzeichnung oder dem Werbeversprechen.
 
-### Qualitätsmangel
+## Qualitätsmangel
 - Vereinbarte Menge wurde nicht geliefert
 
-### Artmangel
+## Artmangel
 - Eine andere Sache wurde geliefert

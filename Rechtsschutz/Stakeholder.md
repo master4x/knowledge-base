@@ -1,4 +1,3 @@
-# Stakeholder
 Stakeholder sind Personen, Gruppen oder Organisationen, die direkt oder indirekt von den Aktivitäten, Entscheidungen oder Ergebnissen eines Unternehmens, Projekts oder einer Initiative betroffen sind oder einen Einfluss darauf haben. Sie haben ein Interesse oder eine Verantwortung gegenüber dem betreffenden Unternehmen oder Projekt und können von seinen Aktivitäten, Entscheidungen oder Ergebnissen beeinflusst werden.
 
 Stakeholder können verschiedene Interessen, Bedürfnisse und Erwartungen haben, die mit dem Unternehmen oder Projekt verbunden sind. Sie können zum Beispiel Kunden, Lieferanten, Mitarbeiter, Investoren, Regierungsbehörden, Anwohner, Umweltschutzorganisationen, Konkurrenten oder die breite Öffentlichkeit umfassen.

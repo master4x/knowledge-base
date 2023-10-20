@@ -1,4 +1,3 @@
-# Views
 Views sind Abfragen, die in der [[Datenbank]] *als Objekt fest gespeichert* sind. Sie können als *virtuelle Tabellen* verstanden werden, deren Inhalt und Struktur auf anderen Tabellen oder Views basieren, und können in (fast) jedem `SELECT`-Befehl anstelle einer „echten“ Tabelle verwendet werden.
 
 Bei einer View wird die *Abfrage in der Datenbank gespeichert*, aber nicht das Ergebnis. Bei jedem neuen Aufruf der View wird die dahinterliegende Abfrage neu ausgeführt, denn sie soll die aktuellen Daten verwenden. Die Abfragen, auf denen Views basieren, können grundsätzlich alle Klauseln wie eine normale Abfrage enthalten. Somit ist es möglich, bestimmte Daten in einer View zu selektieren und zu gruppieren.

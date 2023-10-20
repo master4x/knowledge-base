@@ -1,4 +1,3 @@
-# Modifizierte Chen-Notation
 Die Modifizierte Chen-Notation (engl. „Modified Chen Notation“, MC-Notation) ist eine *Erweiterung* der Chen-Notation, bei der die Aussage „*kein oder ein Element*“ mit dem Buchstaben c („choice“), und die Aussage „*ein oder mehr Element(e)*“ mit dem Buchstaben m („must“) angegeben wird.
 
 | Abkürzung     | Beziehungsart                      | Anzahl Entitäten |

@@ -1,3 +1,2 @@
-# Ohmsches Gesetz
-XXX
+WIP
 URI

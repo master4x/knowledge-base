@@ -1,13 +1,12 @@
-# Routing
 Ein [[Komponenten#Router|Router]] hat immer nur Informationen über unmittelbar verbundene Netzwerke. Um ein Datenpacket in ein unbekanntes Netzwerk zu transportieren, muss der Router entscheiden, über welche Schnittstelle das Packet geleiten werden muss, damit es zum Ziel gelangt.
 
-## Statisches Routing
+# Statisches Routing
 Beim statischen Routing werden die Routen manuell in Weiterleitungstabellen eingetragen. Dem Router liegen nur diese *Routen* als Datengrundlage vor.
 
-## Dynamisches Routing
+# Dynamisches Routing
 Beim dynamischen Routing verwaltet der Router die Weiterleitungstabelle und trägt im laufenden Betrieb neu ermittelte Routen automatisch ein.
 
-## Weiterleitungstabelle
+# Weiterleitungstabelle
 In der Weiterleitungstabelle, auch Routingtabelle, sind die logischen Verknüpfungen für die Adresszuordnung gespeichert. Hier werden den Adaptern die passenden Adressen, Netzwerke, Broadcasts und Routen zugeordnet.
 
 | Ziel        | Subnetzmaske    | Gateway     | Schnittstelle | Metrik¹ |
@@ -27,8 +26,8 @@ In der Weiterleitungstabelle, auch Routingtabelle, sind die logischen Verknüpfu
 **Schnittstelle**: Die IP-Adresse der *ausgehenden Netzwerkkarte* des [[Komponenten#Router|Routers]].
 **Metrik**: Die Anzahl der [[Routing#Hop|Hops]] für die Verbindung dieser Route. (siehe [[Routing#Metrik|Metrik]])
 
-### Metrik
+## Metrik
 Unter Metrik versteht man einen numerischen Wert, der einer Route zugeordnet ist. Ein niedriger Wert führt dazu, dass die Route vom System bevorzugt wird, falls zwei Routen zu demselben Ziel existieren. Metriken können etwa Kosten darstellen oder sie weisen auf Faktoren wie Bandbreite, Geschwindigkeit, Zuverlässigkeit, Pfadlänge oder Verzögerung von Routen hin. 
 
-### Hop
+## Hop
 Als Hop bezeichnet man jegliche aktive Routing-Komponenten (z.B. [[Komponenten#Router|Router]] oder [[Komponenten#Layer3-Switch|L3-Switch]]) auf einer Paketroute. Man kann den ersten oder nächsten Knotenpunkt auch als *Next Hop* bezeichnen. 

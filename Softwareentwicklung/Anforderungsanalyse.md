@@ -1,6 +1,4 @@
-# Anforderungsanalyse
-
-## Prozess
+# Prozess
 1. Kundenanfrage
 - Telefon
 - E-Mail
@@ -34,10 +32,10 @@
 	- Kundenbestätigung
 4. Auftrag, Vereinbarung, Vertrag
 
-## Anhang
+# Anhang
 
-### User Story
-XXX
+## User Story
+WIP
 
-### Use Case
-XXX
+## Use Case
+WIP

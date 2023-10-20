@@ -1,10 +1,8 @@
-# Rechenzentren
+# Lokales Rechenzentrum (On-Premises)
+WIP
 
-## Lokales Rechenzentrum (On-Premises)
-XXX
+# Externes Rechenzentrum (Off-Premises)
+WIP
 
-## Externes Rechenzentrum (Off-Premises)
-XXX
-
-## Colocation
-XXX
+# Colocation
+WIP
