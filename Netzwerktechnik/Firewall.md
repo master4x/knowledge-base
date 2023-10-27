@@ -1,8 +1,6 @@
 Eine Firewall ist ein Sicherungssystem, das ein Rechnernetz oder einen einzelnen Computer *vor
 unerwünschten Netzwerkzugriffen schützt*. Mit einer Firewall lässt sich der kommende und gehende Datenverkehr *kontrollieren, protokollieren, sperren und freigeben*.
 
-Eine Firewall arbeitet klassischerweise auf der [[OSI-Schichtenmodell|Vermittlungsschicht (Layer 3)]] und der [[OSI-Schichtenmodell|Transportschicht (Layer 4)]].
-
 # Access Control List
 Die Regeln für die Firewall werden in der „Access Control List“ (kurz ACL) definiert. *Die Reihenfolge der Regelsätze ist relevant* für die Ausführung. Die erste Regel, die für ein Datenpaket greift, wird angewendet – weitere Regeln werden in solchen Szenarien nicht beachtet. 
 
@@ -22,13 +20,22 @@ Beispiel für eine portbasierte Regel (auch Portfreigabe) je nach Protokoll:
 | ALLOW     | ANY          | TCP       | ANY         | 22   |
 | ALLOW     | ANY          | UDP       | ANY         | 22   |
 
-# Next Generation Firewall
+# Konzepte
+
+## Stateless
+TBD
+## Stateful
 Im Gegensatz zu den statischen Paketfiltern ist das Stateful Inspection Firewalling eine dynamische Filtermethode. Eine Firewall, die für die Entscheidung über die Weiterleitung eines
 bestimmten Datenpakets nicht nur die Merkmale dieses Pakets, sondern auch den individuellen
 Kontext in Betracht zieht, in dem es durchgeführt werden soll, ist eine Stateful Packet Inspection
 Firewall (kurz SPI).
 
 Eine Stateful Packet Inspection Firewall legt eine State-Tabelle an, die alle Zustände von eingehenden und ausgehenden Verbindungen verzeichnet. Dies ermöglicht der Firewall, legitime Pakete von ungültigen zu unterscheiden und schützt vor Angriffen, bei denen Pakete mit gefälschten ACK-Flags gesendet werden, da diese in der State-Tabelle keine passende ausgehende Anfrage eines geschützten Rechners finden würden, und solche Pakete werden abgelehnt.
+
+### IP-Fragmentierung
+TBD
+## Proxy/Application
+TBD
 
 # Hosts
 ## Hostbasierte Firewall

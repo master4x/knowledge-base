@@ -1,4 +1,4 @@
-# Servicarten
+# Servicearten
 
 ## IT-Vertrieb/IT-Handel
 Als Dienstleistung wird die Beschaffung von IT-Systemen und Komponenten - und wenn gewünscht - inklusive funktionstüchtigem Aufbau und Anschluss an das vorhandene Netzwerk verstanden. 
