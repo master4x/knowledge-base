@@ -1,4 +1,4 @@
-Ein [[Komponenten#Router|Router]] hat immer nur Informationen über unmittelbar verbundene Netzwerke. Um ein Datenpacket in ein unbekanntes Netzwerk zu transportieren, muss der Router entscheiden, über welche Schnittstelle das Packet geleiten werden muss, damit es zum Ziel gelangt.
+Ein [[Komponenten#Router|Router]] hat immer nur Informationen über unmittelbar verbundene Netzwerke. Um ein Datenpaket in ein unbekanntes Netzwerk zu transportieren, muss der Router entscheiden, über welche Schnittstelle das Packet geleiten werden muss, damit es zum Ziel gelangt.
 
 # Statisches Routing
 Bei statischem Routing werden Routing-Einträge manuell von einem Netzwerkadministrator konfiguriert. Dies bedeutet, dass die Weiterleitungstabelle fest ist und sich nicht automatisch an Änderungen im Netzwerk anpasst. Es eignet sich gut für kleinere Netzwerke mit stabilen Topologien, erfordert jedoch regelmäßige manuelle Aktualisierungen bei Netzwerkänderungen.
