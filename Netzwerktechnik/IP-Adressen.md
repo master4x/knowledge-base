@@ -10,7 +10,7 @@ Die Subnetzmaske *fällt bei IPv6 ersatzlos weg*. Um trotzdem eine Segmentierung
 Für die Darstellung von IPv6-Adressen gibt es mehrere Notationsregeln, um eine Adresse zu kürzen (RFC 5952).
 
 1. Alle führenden Nullen eines Blocks werden grundsätzlich ausgelassen. 
-2. Eine oder Mehrere aufeinanderfolgende Nullerblöcke werden wie folgt gekürzt: „::“. 
+2. Eine oder Mehrere aufeinanderfolgende Nullerblöcke werden durch zwei aufeinanderfolgende Doppelpunkte gekürzt:. 
    *Diese Regel darf nur einmal bei der längsten Folge an Nullerblöcken (oder bei gleicher Länge die erste von links) angewendet werden.*
 
 ```
