@@ -23,21 +23,20 @@ Beispiel für eine portbasierte Regel (auch Portfreigabe) je nach Protokoll:
 # Konzepte
 
 ## Stateless
-TBD
+Stateless Firewalls analysieren den Netzwerkverkehr auf Paketebene, ohne dabei den Verbindungszustand zu berücksichtigen. Jedes einzelne Paket wird isoliert betrachtet, und Entscheidungen bezüglich der Weiterleitung oder Blockierung basieren auf vordefinierten Regeln, die auf den individuellen Paketen angewendet werden. 
+Der Fokus liegt dabei auf der Prüfung der Header-Informationen, wie Quell- und Ziel-IP-Adressen, Portnummern und Protokolltypen. Dies ermöglicht eine effiziente, wenn auch weniger kontextsensitive Überwachung des Datenverkehrs.
 ## Stateful
-Im Gegensatz zu den statischen Paketfiltern ist das Stateful Inspection Firewalling eine dynamische Filtermethode. Eine Firewall, die für die Entscheidung über die Weiterleitung eines
-bestimmten Datenpakets nicht nur die Merkmale dieses Pakets, sondern auch den individuellen
-Kontext in Betracht zieht, in dem es durchgeführt werden soll, ist eine Stateful Packet Inspection
-Firewall (kurz SPI).
+Im Gegensatz dazu berücksichtigen Stateful Firewalls den Verbindungszustand und analysieren den Datenverkehr auf einer höheren Ebene. Hierbei werden Informationen über den Zustand der Netzwerkverbindungen gespeichert und verwendet, um Entscheidungen zu treffen. Die Firewall verfolgt den gesamten Kommunikationsfluss und kann anhand dieses Kontexts differenzierte Entscheidungen treffen. Dies ermöglicht eine genauere Identifizierung von erlaubtem oder unerlaubtem Datenverkehr. 
+Stateful Firewalls bieten somit eine erhöhte Sicherheit, insbesondere bei komplexen Netzwerkanwendungen.
 
 Eine Stateful Packet Inspection Firewall legt eine State-Tabelle an, die alle Zustände von eingehenden und ausgehenden Verbindungen verzeichnet. Dies ermöglicht der Firewall, legitime Pakete von ungültigen zu unterscheiden und schützt vor Angriffen, bei denen Pakete mit gefälschten ACK-Flags gesendet werden, da diese in der State-Tabelle keine passende ausgehende Anfrage eines geschützten Rechners finden würden, und solche Pakete werden abgelehnt.
 
 ### IP-Fragmentierung
-TBD
+Ein spezifisches Detail in der stateful Firewall ist die Berücksichtigung von IP-Fragmentierung. Dies bezieht sich auf die Aufteilung von IP-Paketen in kleinere Fragmente, um den Datenaustausch über Netzwerke mit unterschiedlichen maximalen Paketgrößen zu ermöglichen. Die Firewall kann diese Fragmente überwachen und sicherstellen, dass sie korrekt wieder zusammengefügt werden.
 ## Proxy/Application
-TBD
+Firewalls können auch als Proxy dienen, wodurch sie als Vermittler zwischen internen und externen Netzwerken fungieren. Diese Proxies können auf Anwendungsebene arbeiten, indem sie den Datenverkehr auf Anwendungsprotokollebene analysieren. Dadurch können spezifische Anwendungsregeln angewendet werden, um den Datenverkehr zu steuern und potenzielle Bedrohungen zu erkennen.
 
-# Hosts
+# Umgebungen
 ## Hostbasierte Firewall
 Die hostbasierte (engl. „host basted“) Firewall ist ein Softwareprodukt, welches nur den Client mit der entsprechenden Installation schützt.
 
