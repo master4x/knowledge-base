@@ -30,11 +30,10 @@ Im Gegensatz dazu berücksichtigen Stateful Firewalls den Verbindungszustand und
 Stateful Firewalls bieten somit eine erhöhte Sicherheit, insbesondere bei komplexen Netzwerkanwendungen.
 
 Eine Stateful Packet Inspection Firewall legt eine State-Tabelle an, die alle Zustände von eingehenden und ausgehenden Verbindungen verzeichnet. Dies ermöglicht der Firewall, legitime Pakete von ungültigen zu unterscheiden und schützt vor Angriffen, bei denen Pakete mit gefälschten ACK-Flags gesendet werden, da diese in der State-Tabelle keine passende ausgehende Anfrage eines geschützten Rechners finden würden, und solche Pakete werden abgelehnt.
-
 ### IP-Fragmentierung
 Ein spezifisches Detail in der stateful Firewall ist die Berücksichtigung von IP-Fragmentierung. Dies bezieht sich auf die Aufteilung von IP-Paketen in kleinere Fragmente, um den Datenaustausch über Netzwerke mit unterschiedlichen maximalen Paketgrößen zu ermöglichen. Die Firewall kann diese Fragmente überwachen und sicherstellen, dass sie korrekt wieder zusammengefügt werden.
 ## Proxy/Application
-Firewalls können auch als Proxy dienen, wodurch sie als Vermittler zwischen internen und externen Netzwerken fungieren. Diese Proxies können auf Anwendungsebene arbeiten, indem sie den Datenverkehr auf Anwendungsprotokollebene analysieren. Dadurch können spezifische Anwendungsregeln angewendet werden, um den Datenverkehr zu steuern und potenzielle Bedrohungen zu erkennen.
+Firewalls können auch als [[Proxy]] dienen, wodurch sie als Vermittler zwischen internen und externen Netzwerken fungieren. Diese Proxies können auf Anwendungsebene arbeiten, indem sie den Datenverkehr auf Anwendungsprotokollebene analysieren. Dadurch können spezifische Anwendungsregeln angewendet werden, um den Datenverkehr zu steuern und potenzielle Bedrohungen zu erkennen.
 
 # Umgebungen
 ## Hostbasierte Firewall

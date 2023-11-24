@@ -13,7 +13,5 @@ Router sind die komplexesten Netzwerkkomponenten, sie verwalten den Datenverkehr
 # Layer3-Switch
 Layer3-Switches (kurz L3-Switch) bzw. Managed Switches oder Routing Switch sind eine Weiterentwicklung des L2-Switches, welche koexistiert. Der herkömmliche Switch wird mit einer limitierten Routingfunktionalität auf die 3. OSI-Schicht gehoben. Im Unterscheid zum Router, verbindet ein L3-Switch nur Subnetze und unterstützt keine WAN-Protokolle. L3-Switches arbeiten durch effizientes Zwischenspeichern von Paketrouten besonders schnell - nach dem Prinzip „Route once, switch many“. Der Erwerb von L3-Switches ist im Vergleich zu L2-Switches deutlich teurer.
 
- Netzwerksymbolik
-
-# Abitur
+# Netzwerksymbolik Abitur
 ![](../_Medien/Netzwerkkomponenten_Abitur.png)
