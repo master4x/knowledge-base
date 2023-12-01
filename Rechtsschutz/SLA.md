@@ -13,3 +13,9 @@ Wenn die Leistungsziele nicht erreicht werden, kann der SLA Strafen für den Die
 Oft wird im SLA auch festgelegt, wie und wann der Dienstleister für Unterstützung zur Verfügung steht. Ebenso können hier Priorisierungen des Kunden vereinbart werden.
 ## Datenschutz und Sicherheitsstandards
 In vielen Fällen wird auch festgelegt, wie der Dienstleister die Daten des Kunden schützen und verarbeiten wird.
+
+# Key Performance Indicators
+WIP
+
+# Service Levels
+WIP
