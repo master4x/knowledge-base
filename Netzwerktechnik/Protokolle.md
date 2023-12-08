@@ -16,5 +16,5 @@ Ein Netzwerkprotokoll ist ein Kommunikationsprotokoll für den Austausch von Dat
 # ARP
 Das ARP-Protokoll sucht innerhalb eines privaten Netzwerks die MAC-Adresse zu einer bekannten IP-Adresse. Das Protokoll arbeitet auf der 3. OSI-Schicht.
 
-1. **Anfragesteller**: „Who has X?“ Abfrage (Broadcast)*
-2. **Inhaber**: Response, mit der MAX-Adresse *(Unicast)*
+1. **Anfragesteller**: „Who has X?“ Abfrage *([[Übertragungsmethoden#Broadcast|Broadcast]])*
+2. **Inhaber**: Response, mit der MAX-Adresse *([[Übertragungsmethoden#Unicast|Unicast]])*

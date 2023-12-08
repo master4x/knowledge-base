@@ -4,6 +4,7 @@ Eine IPv4-Adresse ist eine 32 Bit lange Binärzahl, welche im sog. Dotted-Decima
 # IPv6-Adresse
 Die IPv6-Adresse ist der Weiterentwicklung der IPv4-Adresse. Die wichtigsten Änderungen sind die Erweiterung der Adresslänge auf *128 Bit* und die feste Länge des Hostanteils. Eine IPv6-Adresse besteht aus *8 Blöcken* mit 4 kleingeschriebenen *Hexadezimalwerten*, welche durch Doppelpunkte getrennt sind.
 
+## Subnetzmaske
 Die Subnetzmaske *fällt bei IPv6 ersatzlos weg*. Um trotzdem eine Segmentierung durchführen zu können, wird die *Präfixlänge* definiert und mit einem Schrägstrich an die IPv6-Adresse angehängt.
 
 ## Verkürzung
