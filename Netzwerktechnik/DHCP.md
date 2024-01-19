@@ -7,10 +7,10 @@ Das DHCP („Dynamic Host Configuration Protocol“) dient dazu, Clients eine *v
  - [[DNS]]-Server (optional)
 
 **Technischer Ablauf**:
-- Host:     `DHCP-Discover` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
-- Server:   `DHCP-Offer` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
-- Host:     `DHCP-Request` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
-- Server:   `DHCP-(N)ACK` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
+1. Host:     `DHCP-Discover` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
+2. Server:   `DHCP-Offer` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
+3. Host:     `DHCP-Request` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
+4. Server:   `DHCP-(N)ACK` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
 
 Erhält der Client mehr als ein Angebot, darf er *unter den eingetroffenen Angeboten wählen*. Der Client benachrichtigt den DHCP-Server per `DHCP-Request`-Nachricht über seine Auswahl. Für die Antwort benutzt der Client als Quelladresse jedoch noch nicht die angebotene IP-Adresse, sondern immer noch die gleiche IP-Adresse wie für das `DHCP-Discover`. Zur Identifikation gegenüber dem DHCP-Server dient die in der `DHCP-REQUEST` ebenfalls enthaltene MAC-Adresse des Clients oder die Transaktions-ID der Anfrage (auf welche der Client referiert).
 
