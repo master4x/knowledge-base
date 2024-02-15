@@ -6,7 +6,6 @@ Die Regeln für die Firewall werden in der „Access Control List“ (kurz ACL) 
 
 Man unterscheidet zwischen dem *Zero-Trust-Prinzip*, der Whitelist (blockiert jegliche Pakete, welche nicht explizit freigegeben sind) und der Blacklist (Erlaubt jegliche Pakete, was nicht expliziert blockiert wurde), welche den Netzwerkverkehr filtern.
 
-
 | Erlaubnis | Quelladresse  | Protokoll | Zieladresse  | Port |
 |-----------|---------------|-----------|--------------|------|
 | ALLOW     | 161.72.160.27 | TCP       | 192.168.0.17 | 80   |
