@@ -3,9 +3,9 @@ Subnetting ist die Bildung von Teilnetzen (bzw. Subnetzen) innerhalb eines priva
 # Berechnung über Anzahl der Subnetze
 **Beispiel**: 3 Subnetzte in einem privaten Klasse-C-Netzwerk mit der Netz-ID `192.168.0.0/24`
 
-1. **Leihbits berechnen**
-   Die Anzahl der Leihbits lässt sich über die Formel $2^n \geq S$ bestimmen.
-   `S` steht dabei für die Anzahl der Subnetze und $n$ für die Anzahl der Leihbits.
+1. **Hostbits berechnen**
+   Die Anzahl der Hostbits lässt sich über die Formel $2^n \geq S$ bestimmen.
+   `S` steht dabei für die Anzahl der Subnetze und $n$ für die Anzahl der Hostbits.
 ```
 2ⁿ ≥ S     ⇨     2² = 4 > 3     ⇨     2 Leihbits
 ```
@@ -40,8 +40,8 @@ Subnetz 3: ...
 ```
 2ᵐ – 2 = H     ⇨     2⁷ – 2 = 126     ⇨     7 Hostbits
 ```
-2. Leihbits berechnen
-   Die Summe von Leihbits und übrigen Bits muss restlos (Modulo) durch 8 teilbar sein. Es muss beachtet werden, dass die Summe ggf. über der Länge eines Segments (1 Byte) liegen kann. Es können maximal so viele Segmente eingenommen werden, wie in der Subnetzmaske des Starts logisch null sind.
+2. Hostbits berechnen
+   Die Summe von Hostbits und übrigen Bits muss restlos (Modulo) durch 8 teilbar sein. Es muss beachtet werden, dass die Summe ggf. über der Länge eines Segments (1 Byte) liegen kann. Es können maximal so viele Segmente eingenommen werden, wie in der Subnetzmaske des Starts logisch null sind.
 ```
 Annahme 1 Byte:   8 – 7 = 1 (Leihbit)      ⇨     falsch 
 Annahme 2 Bytes:  16 – 7 = 9 (Leihbits)    ⇨     wahr 
