@@ -1,1 +1,5 @@
-WIP
+Events in Datenbanken sind Ereignisse, die innerhalb des Datenbanksystems auftreten und bestimmte Aktionen auslösen können. Diese Ereignisse können beispielsweise das Einfügen, Aktualisieren oder Löschen von Daten in einer Tabelle, das Erstellen oder Löschen einer Tabelle oder das Ausführen einer bestimmten Datenbankoperation sein. 
+
+Die Grundidee von Events besteht darin, dass das [[Datenbanksystem]] automatisch auf bestimmte Zustandsänderungen oder Aktionen reagieren kann, ohne dass Benutzer manuell eingreifen müssen. Dies ermöglicht es, komplexe Geschäftslogik oder Datenvalidierung zu implementieren, ohne dass diese direkt durch Anwendungscode gesteuert werden muss.
+
+Im Gegensatz dazu sind [[Trigger]] spezielle gespeicherte Prozeduren oder Funktionen, die automatisch ausgeführt werden, wenn bestimmte Ereignisse in der [[Datenbank]] auftreten. Diese Ereignisse können das Einfügen, Aktualisieren oder Löschen von Daten in einer Tabelle sein. Trigger werden verwendet, um Datenintegrität zu gewährleisten, komplexe Geschäftsregeln umzusetzen oder Aktionen in anderen Tabellen auszulösen. Sie sind eine spezifische Implementierung von Events in Datenbanken.
