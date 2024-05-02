@@ -6,5 +6,5 @@ Mithilfe von Skalarfunktionen (ähnlich zu [[Aggregatsfunktionen]]) können Sie 
 - `DATENAME()`
 
 ``` sql
-SELECT DATEDIFF(year, Einstellung, Entlassung) FROM Mitarbeiter;
+SELECT DATEDIFF(YEAR, Einstellung, Entlassung) FROM Mitarbeiter;
 ```

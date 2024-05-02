@@ -1,0 +1,9 @@
+Indexe (auch Indizes genannt) in [[Datenbank|Datenbanken]] sind strukturelle Mechanismen, die verwendet werden, um den Zugriff auf Daten zu beschleunigen. Sie dienen dazu, bestimmte Daten in einer Tabelle schnell zu finden, ähnlich wie das Register am Ende eines Buches, das Ihnen hilft, bestimmte Informationen schnell zu lokalisieren.
+
+Indexe sind äußerst nützlich, um die Leistung von Abfragen in Datenbanken zu verbessern, insbesondere wenn große Datenmengen verarbeitet werden müssen. Sie ermöglichen schnelle Suchvorgänge und optimieren die Antwortzeiten von Datenbankabfragen erheblich.
+# Funktionsweise von Indizes
+Der Index ist eine separate Datenstruktur, die eine geordnete Liste von Schlüsselwerten enthält, die auf die tatsächlichen Datensätze in der Tabelle verweisen. Wenn Sie nach bestimmten Daten suchen, kann die Datenbank den Index verwenden, um den Suchprozess zu beschleunigen, indem sie nur die relevanten Datensätze überprüft, anstatt die gesamte Tabelle durchzugehen.
+# Arten von Indexen
+Es gibt verschiedene Arten von Indexen, darunter einfache Indexe, die auf einzelne Spalten basieren, und zusammengesetzte Indexe, die auf Kombinationen von Spalten basieren. Indexe können auch eindeutig sein, was bedeutet, dass jeder Schlüsselwert nur einmal in der Tabelle vorkommt, oder nicht eindeutig, was bedeutet, dass mehrere Datensätze denselben Schlüsselwert haben können.
+# Overhead und Wartungsaufwand
+Allerdings können Indexe auch zusätzlichen Speicherplatz und Wartungsaufwand erfordern, da sie aktualisiert werden müssen, wenn Daten in der Tabelle geändert werden. Die richtige Verwendung von Indexen erfordert daher eine sorgfältige Abwägung zwischen Leistungsgewinn und Overhead. Es ist wichtig, Indexe gezielt dort einzusetzen, wo sie einen echten Mehrwert bieten und nicht unnötig viele Indexe zu erstellen, um Ressourcen zu sparen und die Datenbankperformance nicht zu beeinträchtigen.

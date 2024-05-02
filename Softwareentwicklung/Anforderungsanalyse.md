@@ -33,9 +33,4 @@
 4. Auftrag, Vereinbarung, Vertrag
 
 # Anhang
-
-## User Story
-WIP
-
-## Use Case
-WIP
+Als Anhang finden sich typischerweise [[Use Case|Use Cases]] (Entwicklersicht) oder [[User Story|User Stories]] (Anwendersicht).

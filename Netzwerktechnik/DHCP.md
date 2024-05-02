@@ -1,16 +1,16 @@
 Das DHCP („Dynamic Host Configuration Protocol“) dient dazu, Clients eine *vollautomatische Konfiguration* der TCP/IP-Einstellungen (auch Netzwerkkonfiguration) über UDP zu ermöglichen und verhindert so gleichzeitig *IP-Adresskonflikte*. Dies ist besonders in größeren Netzwerken praktisch, weil man durch DHCP nicht jeden einzelnen Host manuell konfigurieren muss bzw. der Nutzer keine Kenntnis über die im aktuellen Netz gültigen Einstellungen benötigt. Der Systemadministrator *konfiguriert den DHCP-Server* mit den Optionen, die an den Client übergeben werden sollen.
 
 **DHCP-Netzwerkkonfiguration**:
- - IP-Adresse
- - Subnetzmaske
- - Standard-Gateway
- - DNS-Server (optional)
+ - [[IP-Adressen|IP-Adresse]]
+ - [[Subnetzmaske]]
+ - Standard-[[Gateways|Gateway]]
+ - [[DNS]]-Server (optional)
 
 **Technischer Ablauf**:
-- Host:     `DHCP-Discover` *(Broadcast)*
-- Server:   `DHCP-Offer` *(Broadcast)*
-- Host:     `DHCP-Request` *(Broadcast/Unicast)*
-- Server:   `DHCP-(N)ACK` *(Broadcast/Unicast)*
+1. Host:     `DHCP-Discover` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
+2. Server:   `DHCP-Offer` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
+3. Host:     `DHCP-Request` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
+4. Server:   `DHCP-(N)ACK` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
 
 Erhält der Client mehr als ein Angebot, darf er *unter den eingetroffenen Angeboten wählen*. Der Client benachrichtigt den DHCP-Server per `DHCP-Request`-Nachricht über seine Auswahl. Für die Antwort benutzt der Client als Quelladresse jedoch noch nicht die angebotene IP-Adresse, sondern immer noch die gleiche IP-Adresse wie für das `DHCP-Discover`. Zur Identifikation gegenüber dem DHCP-Server dient die in der `DHCP-REQUEST` ebenfalls enthaltene MAC-Adresse des Clients oder die Transaktions-ID der Anfrage (auf welche der Client referiert).
 
