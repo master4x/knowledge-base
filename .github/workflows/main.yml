@@ -15,15 +15,3 @@ jobs:
           PAGES_BRANCH: gh-pages
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ZOLA_REPO: https://github.com/rwtechwiki/obsidian-zola.git
-      - name: deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: public/
-          state-name: ../.ftp-deploy-sync-state.json
-          exclude: |
-            **/.git*
-            **/.git*/**
-            netlify.toml
