@@ -13,7 +13,7 @@ Die E-Mail-Kommunikation erfolgt über einen Client und *mindestens einen Server
 | IMAP      | 143, 993 |
 
 **Technischer Ablauf**:
-- Gegenseitige Begrüßung nach [[Protokolle#ARP|ARP]], [[Three-Way-Handshake (TCP)|Three-Way-Handshake]] 
+- Gegenseitige Begrüßung nach [[Protokolle#ARP|ARP]], [[Three-Way-Handshake|Three-Way-Handshake]] 
 - Der Inhalt (Sender, Empfänger, …) war lesbar (unverschlüsselt) 
 - Der Mailserver sucht zuerst nach dem [[DNS]]-Server 
 - E-Mail wird in mehrere Pakete aufgeteilt und übertragen 
