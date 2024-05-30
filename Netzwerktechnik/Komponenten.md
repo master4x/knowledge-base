@@ -4,7 +4,7 @@ Ein Hub ist eine veraltete Netzwerkkomponente, er empfängt Signale und leitet s
 # Switch
 Switches (auch L2-Switch) sind „kluge“ Netzwerkkonten. Ein Switch *vermeidet Kollisionen*, indem er Blöcke speichert und nur an das Zielgerät weiterleitet. Dazu greift der Switch die Daten aus den gesendeten Paketen ab und liest die Quell-, und Ziel-MAC-Adresse aus. Der Switch registriert die *MAC-Adressen* der angeschlossenen Netzwerkgeräte und speichert diese in einer Tabelle. Switches arbeiten auf der 2. OSI-Schicht, werden teilweise auch in die 3. OSI-Schicht eingeordnet. Jeder Switch verfügt über CPU, RAM und ASICS (Application Specific Integrated Circuits).
 
-# Portsecurity
+## Portsecurity
 Portsecurity ist ein zusätzliches Sicherheitsfeature mancher Switches. Es öffentlich zugängliche LAN-Ports entweder ganz zu deaktivieren oder gegen eine MAC-Filterliste prüfen zu lassen.
 
 # Router

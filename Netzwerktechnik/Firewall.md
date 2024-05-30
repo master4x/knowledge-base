@@ -34,11 +34,6 @@ Ein spezifisches Detail in der stateful Firewall ist die Berücksichtigung von I
 ## Proxy/Application
 Firewalls können auch als [[Proxy]] dienen, wodurch sie als Vermittler zwischen internen und externen Netzwerken fungieren. Diese Proxies können auf Anwendungsebene arbeiten, indem sie den Datenverkehr auf Anwendungsprotokollebene analysieren. Dadurch können spezifische Anwendungsregeln angewendet werden, um den Datenverkehr zu steuern und potenzielle Bedrohungen zu erkennen.
 
-### IP-Fragmentierung
-TBD
-## Proxy/Application
-TBD
-
 # Umgebungen
 ## Hostbasierte Firewall
 Die hostbasierte (engl. „host basted“) Firewall ist ein Softwareprodukt, welches nur den Client mit der entsprechenden Installation schützt.
