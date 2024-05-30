@@ -1,0 +1,5 @@
+# RIP
+RIP (Routing Information Protocol) ist ein dynamisches Routingprotokoll, das den Distanz-Vektor-Algorithmus verwendet. Es wählt Wege basierend auf der Anzahl der Hops zwischen Quell- und Zielnetz aus und aktualisiert seine Routinginformationen alle 30 Sekunden. RIP ist einfach, unterstützt jedoch nur bis zu 15 [[Routing#Hop|Hops]]. Es gibt aktuelle Versionen wie RIPv2 und RIPnG für IPv6.
+
+# OSPF
+OSPF (Open Shortest Path First) ist ebenfalls ein dynamisches Routingprotokoll, das auf der Link State Database basiert. OSPF berechnet den besten Weg basierend auf Leitungskosten und verwendet Hello-Pakete, um Änderungen der [[Routing#Weiterleitungstabelle|Weiterleitungstabelle ]]zu signalisieren. OSPF wird in einem [[Routing#Autonomes System|Autonomes System]] (AS) eingesetzt und verwendet Border-Router, um zwischen verschiedenen AS zu vermitteln. Version 2 ist im [[RFC]] 2328 beschrieben, während Version 3 für IPv6 in [[RFC]] 2740 definiert ist.

@@ -7,10 +7,10 @@ Das DHCP („Dynamic Host Configuration Protocol“) dient dazu, Clients eine *v
  - [[DNS]]-Server (optional)
 
 **Technischer Ablauf**:
-1. Host:     `DHCP-Discover` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
-2. Server:   `DHCP-Offer` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
-3. Host:     `DHCP-Request` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
-4. Server:   `DHCP-(N)ACK` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
+1. Host: `DHCP-Discover` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
+2. Server: `DHCP-Offer` *([[Übertragungsmethoden#Broadcast|Broadcast]]])*
+3. Host: `DHCP-Request` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
+4. Server: `DHCP-(N)ACK` *([[Übertragungsmethoden#Broadcast|Broadcast]]]/[[Übertragungsmethoden#Unicast|Unicast]])*
 
 Erhält der Client mehr als ein Angebot, darf er *unter den eingetroffenen Angeboten wählen*. Der Client benachrichtigt den DHCP-Server per `DHCP-Request`-Nachricht über seine Auswahl. Für die Antwort benutzt der Client als Quelladresse jedoch noch nicht die angebotene IP-Adresse, sondern immer noch die gleiche IP-Adresse wie für das `DHCP-Discover`. Zur Identifikation gegenüber dem DHCP-Server dient die in der `DHCP-REQUEST` ebenfalls enthaltene MAC-Adresse des Clients oder die Transaktions-ID der Anfrage (auf welche der Client referiert).
 
@@ -27,3 +27,10 @@ Ein Rogue-DHCP ist ein *bösartiger DHCP-Server*, der einen gesicherten IP-Pool 
 Der DHCP-Server muss sich *im selben (Sub-)Netzwerk befinden* wie der Client, da der Client für seine Anfrage einen Broadcast verwendet und [[Komponenten#Router|Router]] Broadcasts nicht weiterleiten. Wenn sich der DHCP-Server in einem anderen (Sub-)Netzwerk befindet als der Client, so muss *im Netz des Clients ein DHCP-Relay(-Agent) installiert werden*, der die DHCP-Anfragen an den zuständigen DHCP-Server weiterleitet. Ein [[Komponenten#Layer3-Switch|L3-Switch]] zum Routing zwischen Subnetzen ersetzt kein DHCP-Relay.
 
 Im Fall von Windows-Clients kann die IP-Adresse `169.254.0.0` auf einen falsch konfigurierten DHCP-Server oder *ein fehlendes DHCP-Relay hinweisen*. Diese Adresse wird vom Betriebssystem immer vergeben, wenn keine gültige Netzwerkkonfiguration von einem DHCP-Server eingeholt werden kann. Auf Clients jeglicher Systeme ist DHCP *standardmäßig aktiv*.
+
+# SLAAC
+_Stateless Address Autoconfiguration_ ist ein Verfahren zur zustandslosen und automatischen Konfiguration von IPv6-Adressen an einem Netzwerk-Interface. Das Ziel von SLAAC ist die Automatisierung der IPv6-Adressvergabe ohne eine lokale Vergabestelle. Unter Verwendung von [[IP-Adressen#1. Link-Local Adressen|Link-Local Adressen]] kann einem Gerät eine globale IPv6-Adresse für Verbindungen außerhalb des lokalen Netzwerks zugewiesen werden.
+
+In manchen Netzwerken werden SLAAC und DHCPv6 kombiniert, um das Beste aus beiden Welten zu nutzen:
+- SLAAC wird verwendet, damit Geräte sich schnell und einfach selbst eine IP-Adresse erstellen können.
+- DHCPv6 kann zusätzlich genutzt werden, um den Geräten andere notwendige Informationen zu geben, die sie nicht über SLAAC bekommen (z.B. die Adressen der DNS-Server).
