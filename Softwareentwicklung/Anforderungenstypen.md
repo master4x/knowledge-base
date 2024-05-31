@@ -7,7 +7,7 @@ WIP
 WIP
 
 # Vertikale Anforderungen
-WIP
+Vertikale Anforderungen bewegen sich nur auf einer Schicht der [[3-Schichten-Architektur]].
 
 # Horizontale Anforderungen
-WIP
+Horizontale Anforderungen ziehen sich durch mehrere Schichten der [[3-Schichten-Architektur]].
