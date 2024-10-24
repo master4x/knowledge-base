@@ -1,5 +1,7 @@
 Ein „Entity-Relationship-Diagram“ (kurz ERD) bzw. „Entity-Relationship-Modell“ (kurz ERM) ist eine visuelle Darstellung verschiedener Entitäten innerhalb eines Systems mit ihrer Beziehung zueinander.
 
+**Beispiel** (nach [[Notation#Chen-Notation|Chen-Notation]]):
+
 ![](../_Medien/ERD.png)
 # Konventionen
 - **Entitätstypen** werden groß und im Singular geschrieben. 

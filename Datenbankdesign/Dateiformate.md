@@ -55,9 +55,8 @@ Was noch fehlt, ist der *Bezug zu einer DTD* (engl. „Document Type Definition�
 ]>
 ```
 
-# JSON
-WIP
-
+# Json
+Json (JavaScript Object Notation) ist ein *leichtgewichtiges Datenformat*, das häufig für den Datenaustausch zwischen einem Server und einer Webanwendung verwendet wird. Es ist lesbar für Menschen und einfach für Maschinen zu parsen und zu generieren. JSON basiert auf einer Untermenge der JavaScript-Programmiersprache, ist jedoch sprachunabhängig, was es für die Verwendung mit vielen Programmiersprachen attraktiv macht.
 
 ``` json
 {
@@ -84,4 +83,20 @@ WIP
 ```
 
 # Protobuf
-WIP
+Protobuf (Protocol Buffers) ist ein binäres Serialisierungsformat, das von Google entwickelt wurde. Es dient dazu, strukturierte Daten effizient und plattformunabhängig zu serialisieren. Protobuf bietet eine kompakte Darstellung der Daten, was besonders bei der Übertragung und Speicherung großer Datenmengen Vorteile bietet. Im Vergleich zu JSON und XML ist Protobuf schneller und benötigt weniger Speicherplatz, da es die Daten in einem binären Format anstelle von menschenlesbarem Text speichert.
+
+``` protobuf
+syntax = "proto3";
+
+message Auto {
+  string marke = 1;
+  string modell = 2;
+  int32 leistung = 3;
+}
+
+message Autos {
+  repeated Auto auto = 1;
+}
+```
+
+Diese Eigenschaften machen Protobuf zu einer hervorragenden Wahl, wenn Leistung und Effizienz entscheidend sind, beispielsweise bei der Kommunikation zwischen Microservices oder in ressourcenbeschränkten Umgebungen.

@@ -1,1 +1,7 @@
-WIP
+# BIOS
+Das **BIOS (Basic Input/Output System)** ist eine Firmware, die dafür verantwortlich ist, den Startprozess eines Computers zu initialisieren. Es führt einen **POST (Power-On Self Test)** durch, um sicherzustellen, dass die grundlegenden Hardwarekomponenten wie Arbeitsspeicher, CPU und Festplatten korrekt funktionieren. Nach erfolgreichem POST übergibt das BIOS die Kontrolle an den **Bootloader**, der das Betriebssystem startet. 
+
+Ein wesentlicher Nachteil des BIOS ist die Beschränkung auf den **16-Bit-Prozessor-Modus**, wodurch die Leistungsfähigkeit eingeschränkt ist. Zudem unterstützt das BIOS nur das **MBR (Master Boot Record)**-Partitionsschema, was die Größe von Festplatten auf 2 TB limitiert. Darüber hinaus kann das BIOS nur bis zu 1 MB Speicher für Firmware-Funktionen adressieren.
+
+# UEFI
+Das **UEFI (Unified Extensible Firmware Interface)** ist eine moderne Alternative zum BIOS und bietet viele Vorteile, darunter die Unterstützung von **32-Bit- und 64-Bit-Prozessor-Modi**. UEFI verwendet das **GPT (GUID Partition Table)**-Schema, das größere Festplatten mit mehr als 2 TB unterstützt. Im Gegensatz zum BIOS bietet UEFI eine **grafische Benutzeroberfläche**, die eine benutzerfreundlichere Navigation und Konfiguration ermöglicht. Ein weiteres wichtiges Merkmal von UEFI ist die **Secure Boot**-Funktion, die verhindert, dass nicht autorisierte Software oder Betriebssysteme beim Starten des Computers geladen werden.
