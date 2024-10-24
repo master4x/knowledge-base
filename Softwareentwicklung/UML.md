@@ -1,0 +1,1 @@
+WIP Klassendiagram, Aktivitätsdiagram, Anwendungsfalldiagram, Sequenzdiagram, Zusatndsdiagram

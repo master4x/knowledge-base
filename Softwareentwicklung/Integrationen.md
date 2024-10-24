@@ -1,0 +1,1 @@
+WIP Vernetzung, Modularisierung, (De-)Zentralisierung, Embedded Systems, Integration

@@ -9,6 +9,7 @@ Subnetting ist die Bildung von Teilnetzen (bzw. Subnetzen) innerhalb eines priva
 ```
 2ⁿ ≥ S     ⇨     2² = 4 > 3     ⇨     2 Leihbits
 ```
+
 2. **Subnetzmaske berechnen**
 ```
 Klasse C:  1111 1111.1111 1111.1111 1111.0000 0000 /24 ⇨ 255.255.255.0
@@ -17,6 +18,7 @@ Subnetz 1: 1111 1111.1111 1111.1111 1111.0000 0000 /26 ⇨ 255.255.255.224
 Subnetz 2: 1111 1111.1111 1111.1111 1111.0100 0000 /26 ⇨ 255.255.255.224
 Subnetz 3: ...
 ```
+
 3. **Hostanzahl berechnen**
    Die Größe der Subnetze lässt sich über die Formel $2^m = G$ bestimmen.
    `G` steht dabei für die Anzahl Subnetzgröße und $m$ für die Anzahl der verbleibenden Bits.
@@ -24,6 +26,7 @@ Subnetz 3: ...
 ```
 2ᵐ = G     ⇨     2⁶ – 2 = 64     ⇨     64 – 2 = 62 (Hosts)
 ```
+
 4. **Subnetzübersicht aufstellen**
 
 | Name        | Subnetz-ID    | Hostbereich                   | Broadcast     |
@@ -40,6 +43,7 @@ Subnetz 3: ...
 ```
 2ᵐ – 2 = H     ⇨     2⁷ – 2 = 126     ⇨     7 Hostbits
 ```
+
 2. Hostbits berechnen
    Die Summe von Hostbits und übrigen Bits muss restlos (Modulo) durch 8 teilbar sein. Es muss beachtet werden, dass die Summe ggf. über der Länge eines Segments (1 Byte) liegen kann. Es können maximal so viele Segmente eingenommen werden, wie in der Subnetzmaske des Starts logisch null sind.
 ```
@@ -48,6 +52,7 @@ Annahme 2 Bytes:  16 – 7 = 9 (Leihbits)    ⇨     wahr
                   ⇩ 
                   2ⁿ = S     ⇨     2⁹ = 512 (Subnetze)
 ```
+
 3. Subnetzmaske berechnen
 ```
 Klasse B:   1111 1111.1111 1111.0000 0000.0000 0000 /16     ⇨     255.255.0.0 
@@ -55,6 +60,7 @@ Klasse B:   1111 1111.1111 1111.0000 0000.0000 0000 /16     ⇨     255.255.0.0
 Subnetz 1:  1111 1111.1111 1111.0000 0000.0000 0000 /25     ⇨     255.255.255.128 
 Subnetz 2:  1111 1111.1111 1111.0000 0000.1000 0000 /25     ⇨     255.255.255.128
 ```
+
 4. Subnetzübersicht aufstellen
 
 | Name              | Subnetz-ID   | Hostbereich                 | Broadcast    |
@@ -62,4 +68,3 @@ Subnetz 2:  1111 1111.1111 1111.0000 0000.1000 0000 /25     ⇨     255.255.255.
 | Anmeldung         | 172.16.0.0   | 172.16.0.1 – 172.16.0.124   | 172.16.0.125 |
 | Personalabteilung | 172.16.0.126 | 172.16.0.127 – 172.16.0.150 | 172.16.0.251 |
 
-WIP

@@ -1,0 +1,1 @@
+WIP Maßnahmen Prozessqulität/Arbeitsqualität/Produktqualität//Dienstleistungsqualität Qualitätsplanung, Qualitätsziele (Ist-Zustand, Ziel-Zustand)

@@ -1,0 +1,1 @@
+WIP Softwarequalität, Funktionalität, Zuverlässigkeit, Benutzbarkeit, Effizienz, Änderbarkeit, Übertraggabarkeit + Normen anwenden

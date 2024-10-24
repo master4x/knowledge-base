@@ -1,0 +1,1 @@
+WIP variabel/flexibel, Betriebskosten, Anschaffungskosten, Lizenzkosten, Finanzierungskosten

@@ -1,10 +1,11 @@
+WIP Machbarkeit, Stakeholder, Risoko, Rahmen (wirtschaft, technisch, rechtlich, terminlich)
 # Prozess
 1. Kundenanfrage
 - Telefon
 - E-Mail
 - Kundendienst
 - Internet
-2. Kundengespräch, Bedarfsanalyse, [[Rechtsdokumente#Lastenheft|Lastenheft]], Grobkonzept
+2. Kundengespräch, Bedarfsanalyse, [[Dokumente#Lastenheft|Lastenheft]], Grobkonzept
 - Wo?
 	- Telefonat
 	- Kundengespräch
@@ -16,7 +17,7 @@
 	- Beschaffungsplanung
 	- Bereitstellungsplanung
 	- Installationsplanung
-3. Bedarfsanalyse, [[Rechtsdokumente#Pflichtenheft|Pflichteheft]], Terminplanung, Feinkonzept, Angebot
+3. Bedarfsanalyse, [[Dokumente#Pflichtenheft|Pflichteheft]], Terminplanung, Feinkonzept, Angebot
 - Ergenis Ist-Analyse
 	- Verbleibende Eigenleistung
 	- Neu-/ Ersatzbeschaffung

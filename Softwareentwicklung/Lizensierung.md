@@ -1,0 +1,1 @@
+WIP EULA, OEM, GNU, Open Source / Closed Source (properitäre), anpassbarkeit/wartbarkeit,

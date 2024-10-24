@@ -1,0 +1,1 @@
+WIP Defintion PAN,WAN usw. // Anzahl zählen

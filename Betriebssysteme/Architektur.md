@@ -1,3 +1,5 @@
+WIP
+
 # Von-Neumann-Architektur
 ![](../_Medien/Von_Neumann_Architektur.png)
 

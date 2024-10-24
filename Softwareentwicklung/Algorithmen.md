@@ -1,0 +1,1 @@
+ WIP QuickSort (+ Lieanre, Binäre Suche)
